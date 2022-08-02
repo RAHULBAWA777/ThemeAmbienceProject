@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.golf{
+    margin-top: 4rem;
+background-color: rgb(0, 0, 0);
+display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fort{
+    margin-top: 4rem;
+background-color: rgb(0, 0, 0);
+display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lake{
+    margin-top: 4rem;
+background-color: rgb(0, 0, 0);
+display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.temple{
+    margin-top: 4rem;
+background-color: rgb(0, 0, 0);
+display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}

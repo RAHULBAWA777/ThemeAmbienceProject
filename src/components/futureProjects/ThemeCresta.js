@@ -1,0 +1,24 @@
+import React from 'react'
+import './future.css'
+
+const ThemeCresta = () => {
+
+      return (
+        <div className='fort'>
+            <h1>FUTURE PROJECTS</h1>
+            <p>Fort Annexe</p>
+            {/* <hr /> */}
+            <p>Kokapet Commercial Complex</p>
+            {/* <hr/> */}
+            <p>Kajaguda</p>
+            {/* <hr/> */}
+            <p>Tellapur Residential</p>
+            {/* <hr/> */}
+            <p>	Fort Vista</p>
+            {/* <hr/> */}
+            <p>	Crest</p>
+        </div>
+      )
+    }
+
+export default ThemeCresta

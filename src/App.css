@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  background-color:var(--secondary-01);
+  padding-bottom:2rem;
+}
+
+.footer-text{
+  color:var(--primary-01);
+  background:var(--secondary-01)
+}
+
+.components{
+  z-index: 1;
+}
+#no-scroll{
+  pointer-events: none;
+  
+}
+:root{
+  --primary-font-color:#9b9a9a ;
+  --primary-01:#eec65f;;
+  --secondary-01: black;
+  
+  --footer-bg: var(--secondary-01);
+  --dark-gray:#838383;
+  --white-color:white;
+  --light-white-color:rgb(219, 249, 213);
+}
+
+
+
+
+
