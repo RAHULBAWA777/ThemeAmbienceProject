@@ -1,3 +1,7 @@
+
+html{
+  background-color: var(--secondary-01);
+}
 .App {
   text-align: center;
   background-color:var(--secondary-01);
@@ -19,7 +23,7 @@
 :root{
   --primary-font-color:#9b9a9a ;
   --primary-01:#eec65f;;
-  --secondary-01: black;
+  --secondary-01: rgb(255, 255, 255);
   
   --footer-bg: var(--secondary-01);
   --dark-gray:#838383;

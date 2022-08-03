@@ -87,7 +87,7 @@ p {
   flex-direction: column;
   text-align: left;
   padding: auto 2rem auto 7rem;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   justify-content: center;
   font-family: "proximanovaregular";
   width:40%;

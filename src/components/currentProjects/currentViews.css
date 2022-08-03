@@ -2,11 +2,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: var(--secondary-01);
 }
 .golf{
     margin-top: 4rem;
-background-color: rgb(0, 0, 0);
+background-color: var(--secondary-01);
 display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@ display: flex;
 }
 .fort{
     margin-top: 4rem;
-background-color: rgb(0, 0, 0);
+background-color: var(--secondary-01);
 display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@ display: flex;
 }
 .lake{
     margin-top: 4rem;
-background-color: rgb(0, 0, 0);
+background-color: var(--secondary-01);
 display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@ display: flex;
 }
 .temple{
     margin-top: 4rem;
-background-color: rgb(0, 0, 0);
+background-color: var(--secondary-01);
 display: flex;
     justify-content: center;
     align-items: center;

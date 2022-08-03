@@ -27,6 +27,7 @@ import ThemeCresta from "./components/futureProjects/ThemeCresta";
 import ThemeFort from "./components/futureProjects/ThemeFort";
 import Contact from "./components/contact/Contact";
 import Feedback from "./components/feedback/Feedback";
+import CompletedProjects from "./components/completedProjects/CompletedProjects";
 
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
             <Route exact path="/ThemeCrest" element={<ThemeCresta/>} />
             <Route exact path="/contact" element={<Contact/>} />
             <Route exact path="/feedback" element={<Feedback/>} />
+            <Route exact path="/comProjects" element={<CompletedProjects/>} />
 
           </Routes>
       </Router>

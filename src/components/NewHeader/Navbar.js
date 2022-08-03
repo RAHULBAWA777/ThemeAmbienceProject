@@ -33,7 +33,7 @@ const Navbar = () => {
                                     <li><hr className="dropdown-divider" /></li>
                                     <li><Link className="dropdown-item" to="/TirupatiTempleTown">Tirupati Temple Town</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><a className="dropdown-item" href="http://2-livid.vercel.app/">3D Project</a></li>
+                                    <li><a className="dropdown-item" href="https://3d-model-two.vercel.app/">3D Project</a></li>
                                 </ul>
                             </li>
                             <li className="nav-item dropdown ">
@@ -41,25 +41,25 @@ const Navbar = () => {
                                     Completed Projects
                                 </a>
                                 <ul className="dropdown-menu">
-                                    <li><Link className="dropdown-item" to="/AmbienceFort">Ambience Fort</Link></li>
+                                    <li><Link className="dropdown-item" to="/comProjects">Ambience Fort</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item" to="/Swapnalok">Swapnalok</Link></li>
+                                    <li><Link className="dropdown-item" to="/comProjects">Swapnalok</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item" to="/Indralok">Indralok</Link></li>
+                                    <li><Link className="dropdown-item" to="/comProjects">Indralok</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item" to="/Avenue">Avenue</Link></li>
+                                    <li><Link className="dropdown-item" to="/comProjects">Avenue</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item" to="/WhisperValley">Whisper Valley</Link></li>
+                                    <li><Link className="dropdown-item" to="/comProjects">Whisper Valley</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item" to="/WaldenClub">Walden Club</Link></li>
+                                    <li><Link className="dropdown-item" to="/comProjects">Walden Club</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item" to="/AmbienceCanton">Ambience Canton</Link></li>
+                                    <li><Link className="dropdown-item" to="/comProjects">Ambience Canton</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item" to="/AmbienceAnthem">Ambience Anthem</Link></li>
+                                    <li><Link className="dropdown-item" to="/comProjects">Ambience Anthem</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item" to="/TirupatiTempleTown">Tirupati Temple Town</Link></li>
+                                    <li><Link className="dropdown-item" to="/comProjects">Tirupati Temple Town</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item" to="/Kukapally-Emami">@ Kukapally-Emami</Link></li>
+                                    <li><Link className="dropdown-item" to="/comProjects">@ Kukapally-Emami</Link></li>
                                    
                                 </ul>
                             </li>
