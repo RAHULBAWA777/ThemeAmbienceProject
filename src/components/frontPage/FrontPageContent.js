@@ -24,9 +24,9 @@ const FrontPageContent = () => {
 />
 
 <TextCardLeft
-  heading="VASUNDARA NAGALAND"
+  heading="Golf View"
   subHeading="#HeartOfHyderabad"
-  para="Sobha Hartland is an 8 million sq. ft. waterfront community of luxurious apartments, beautiful villas and high-end townhouses located in Hyderabad City."
+  para="A Futuristic location par excellence Surrounded by software giants like Microsoft, Infosys, Wipro and Indian School of Business. Hyderabad’s elite schools Oakridge and Delhi Public School are in the vicinity. Ramanaidu Cine Studios have set up their base nearby."
   link="read more ....."
   img={GolfImage}
   imgOrder="0"
@@ -34,18 +34,18 @@ const FrontPageContent = () => {
 
 
 <TextCardLeft
-  heading="PASSION FOR PERFECTION"
+  heading="Fort View"
   subHeading="The Vision & DNA"
-  para="Crafting a product that stands out entails attention to the finest of details. Ensuring exceptional quality, every time."
+  para="Fort View a dream of spacious and luxurious apartments that is set in between the lush green tranquility of nature and yet which is at an arms distance to the hub of Happening Hyderabad. One can taste the flavour of history all around and at the same time enjoy the benefits of ultra modern comforts and amenities. "
   link="read more ....."
   img={FortImage}
   imgOrder="-1"
 />
 
 <TextCardLeft
-  heading="VASUNDARA HARTLAND"
+  heading="Tirupati Temple Town"
   subHeading="#HeartOfHyderabad"
-  para="Sobha Hartland is an 8 million sq. ft. waterfront community of luxurious apartments, beautiful villas and high-end townhouses located in Hyderabad City."
+  para="Tirupati Temple Town is a prestigiious venture floated by one of the most reputed promoters,who in ove two decades have reached commanding positions in the construction industry. "
   link="read more ....."
   img={templeImage}
   imgOrder="0"

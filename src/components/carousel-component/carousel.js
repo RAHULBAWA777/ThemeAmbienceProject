@@ -3,24 +3,24 @@ import { Carousel } from 'react-responsive-carousel';
 
 import FortImage from '../../images/fortview_main.jpg'
 import GolfImage from '../../images/golfview_img_banner.jpg'
-import LakeImage from '../../images/main_img.jpg'
-import templeImage from '../../images/temple-town-aprt1.jpg'
+import LakeImage from '../../images/Highcompressed_1588995805.jpg'
+import templeImage from '../../images/Highcompressed_2057613182.jpg'
 
 export default function CarouselComponent() {
     return (
-        <div className="carousel-wrapper">
-            <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false} showStatus={false}>
-                <div>
-                    <img alt="img1" src={GolfImage} />
+        <div className="carousel-wrapper" >
+            <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false} showStatus={false}  >
+                <div >
+                    <img alt="img3" src={LakeImage} style={{height:'42rem'}}/>
                 </div>
                 <div>
-                    <img alt="img2" src={FortImage} />
+                    <img alt="img4" src={templeImage} style={{height:'42rem'}}/>
                 </div>
                 <div>
-                    <img alt="img3" src={LakeImage} />
+                    <img alt="img1" src={GolfImage}  style={{height:'42rem'}}/>
                 </div>
                 <div>
-                    <img alt="img4" src={templeImage} />
+                    <img alt="img2" src={FortImage} style={{height:'42rem'}}/>
                 </div>
             </Carousel>
         </div>

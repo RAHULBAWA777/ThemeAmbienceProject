@@ -6,7 +6,7 @@ const LakeView = () => {
     return (
       <div className='lake'>
           <img src={LakeImage} />
-          <h1>GOLF VIEW</h1>
+          <h1>LAKE VIEW</h1>
           <p>Propose to construct a township of 18 independent houses with a total built-up area of 65,000 Sft. The site is situated adjacent to a lake.</p>
       </div>
     )
