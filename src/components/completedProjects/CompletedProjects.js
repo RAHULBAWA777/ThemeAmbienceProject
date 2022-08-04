@@ -1,5 +1,5 @@
 import React from 'react'
-// import './completedProjects.css'
+import './completedProjects.css'
 import Swapanlok from '../../images/swapnalok.jpg'
 import Indralok from '../../images/indralok.jpg'
 import ambience_avenue from '../../images/ambience_avenue.jpg'

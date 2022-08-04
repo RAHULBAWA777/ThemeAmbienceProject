@@ -21,8 +21,8 @@ html{
   
 }
 :root{
-  --primary-font-color:#9b9a9a ;
-  --primary-01:#eec65f;;
+  --primary-font-color:black ;
+  --primary-01:maroon;
   --secondary-01: rgb(255, 255, 255);
   
   --footer-bg: var(--secondary-01);
