@@ -38,3 +38,33 @@ display: flex;
     flex-direction: column;
     width: 100%;
 }
+.frame{
+    width: 100%;
+    height: 85vh;
+}
+
+
+
+
+@media screen and (max-width:600px){
+.golf > img{
+    width: 100%;
+    height: 15rem;
+}
+.temple > img{
+    width: 100%;
+    height: 15rem;
+}
+.fort > img{
+    width: 100%;
+    height: 15rem;
+}
+.lake > img{
+    width: 100%;
+    height: 15rem;
+}
+.frame{
+    width: 100%;
+    height: 40rem;
+}
+}

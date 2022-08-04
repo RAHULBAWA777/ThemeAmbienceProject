@@ -12,7 +12,7 @@ import temple from '../../images/temple-town-front1.jpg'
 const CompletedProjects = () => {
   return (
   <>
-  <div className='container '>
+  <div className='container ' style={{height: '100%' ,marginTop:'1rem'}}>
   <div className="card mb-3" style={{maxWidth: '740px'}}>
   <div className="row g-0">
     <div className="col-md-4">

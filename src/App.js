@@ -28,6 +28,7 @@ import ThemeFort from "./components/futureProjects/ThemeFort";
 import Contact from "./components/contact/Contact";
 import Feedback from "./components/feedback/Feedback";
 import CompletedProjects from "./components/completedProjects/CompletedProjects";
+import Project from "./components/currentProjects/Project";
 
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
             <Route exact path="/contact" element={<Contact/>} />
             <Route exact path="/feedback" element={<Feedback/>} />
             <Route exact path="/comProjects" element={<CompletedProjects/>} />
+            <Route exact path="/project" element={<Project/>} />
 
           </Routes>
       </Router>

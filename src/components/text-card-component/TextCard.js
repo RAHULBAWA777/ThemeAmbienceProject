@@ -7,7 +7,7 @@ export default function TextCard(props) {
 
         <div className="wrapper-body">
           <span> {props?.subHeading}</span>
-          <p>{props?.para}</p>
+          <p className="para">{props?.para}</p>
           <a className="read-page-link" href="#id1">
             {props?.link}
           </a>

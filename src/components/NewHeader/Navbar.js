@@ -33,7 +33,7 @@ const Navbar = () => {
                                     <li><hr className="dropdown-divider" /></li>
                                     <li><Link className="dropdown-item" to="/TirupatiTempleTown">Tirupati Temple Town</Link></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><a className="dropdown-item" href="https://3d-model-two.vercel.app/">3D Project</a></li>
+                                    <li><Link className="dropdown-item" to="/project">3D Project</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item dropdown ">

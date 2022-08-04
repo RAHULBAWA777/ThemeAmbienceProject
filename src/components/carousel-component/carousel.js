@@ -1,6 +1,6 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-
+import './carousel.css'
 import FortImage from '../../images/fortview_main.jpg'
 import GolfImage from '../../images/golfview_img_banner.jpg'
 import LakeImage from '../../images/Highcompressed_1588995805.jpg'
