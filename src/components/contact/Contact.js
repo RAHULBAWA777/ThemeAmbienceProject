@@ -12,7 +12,7 @@ const Contact = () => {
         <p>Ph : 040-23377851/2/3,</p>
         <p>Mobile : +91-9391050852, 9393008035, 9177711339</p>
         <p>Fax : 040-23377854</p>
-        <p>Email : <a href="theme@themeambience.com">theme@themeambience.com</a> (For sales and marketing queries)</p>
+        <p>Email : <a href="mailto: theme@themeambience.com">theme@themeambience.com</a> (For sales and marketing queries)</p>
         <p>Email : <a href="mailto: themeambience@gmail.com">theme@themeambience.com</a> (For sales and marketing queries)</p>
     </div>
   
