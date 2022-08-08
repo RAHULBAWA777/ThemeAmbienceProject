@@ -68,7 +68,7 @@ function App() {
               Less <i className="fas fa-angle-up "></i>
             </div>
           ) : (
-            <div>
+            <div style={{ marginTop: '3rem'}}>
               More <i className="fas fa-angle-down"></i>
             </div>
           )}

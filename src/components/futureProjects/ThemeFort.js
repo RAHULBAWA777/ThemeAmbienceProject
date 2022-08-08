@@ -3,7 +3,7 @@ import './future.css'
 
 const ThemeFort = () => {
   return (
-    <div className='fort'>
+    <div className='future'>
         <h1>FUTURE PROJECTS</h1>
         <p>Fort Annexe</p>
         {/* <hr/> */}

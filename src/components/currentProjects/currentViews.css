@@ -1,44 +1,49 @@
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--secondary-01);
 }
-.golf{
+
+.golf {
     margin-top: 4rem;
-background-color: var(--secondary-01);
-display: flex;
+    background-color: var(--secondary-01);
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.fort{
+
+.fort {
     margin-top: 4rem;
-background-color: var(--secondary-01);
-display: flex;
+    background-color: var(--secondary-01);
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.lake{
+
+.lake {
     margin-top: 4rem;
-background-color: var(--secondary-01);
-display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-}
-.temple{
-    margin-top: 4rem;
-background-color: var(--secondary-01);
-display: flex;
+    background-color: var(--secondary-01);
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
 }
-.frame{
+
+.temple {
+    margin-top: 4rem;
+    background-color: var(--secondary-01);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.frame {
     width: 100%;
     height: 85vh;
 }
@@ -46,25 +51,29 @@ display: flex;
 
 
 
-@media screen and (max-width:600px){
-.golf > img{
-    width: 100%;
-    height: 15rem;
-}
-.temple > img{
-    width: 100%;
-    height: 15rem;
-}
-.fort > img{
-    width: 100%;
-    height: 15rem;
-}
-.lake > img{
-    width: 100%;
-    height: 15rem;
-}
-.frame{
-    width: 100%;
-    height: 40rem;
-}
+@media screen and (max-width:600px) {
+    .golf>img {
+        width: 100%;
+        height: 15rem;
+    }
+
+    .temple>img {
+        width: 100%;
+        height: 15rem;
+    }
+
+    .fort>img {
+        width: 100%;
+        height: 15rem;
+    }
+
+    .lake>img {
+        width: 100%;
+        height: 15rem;
+    }
+
+    .frame {
+        width: 100%;
+        height: 40rem;
+    }
 }

@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import TextCard from "../text-card-component/TextCard";
 import Form from "../form-component/FormComponent";
 import CarouselComponent from "../carousel-component/carousel";
 import TextCardLeft from "../text-card-left-component/TextCardLeft";
+import Modals from "../modals/Modals"
 // import orchard from "../../images/ORCHARD.jpg"
 // import road from "../../images/road.jpg"
 import FortImage from '../../images/fortview_main.jpg'
@@ -11,10 +12,10 @@ import templeImage from '../../images/temple-town-aprt1.jpg'
 
 const FrontPageContent = () => {
   return (
+    
     <>
     <CarouselComponent/>
-
-<TextCard
+ <TextCard
   heading="Welcome to Theme Ambience"
   para="Theme Ambience Constructions Pvt Ltd, a well established construction company headed by Mr. Bimal Kumar Kedia (MD) in the twin cities known for its uncompromising quality standards, and in schedule completion of projects, ever evolving to provide customers with an environment that truly understands their needs and aspirations.
   

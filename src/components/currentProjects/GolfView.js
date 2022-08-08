@@ -6,8 +6,8 @@ const GolfView = () => {
   return (
     <div className='golf'>
         <img src={GolfImage} />
-        <h1>GOLF VIEW</h1>
-        <p>A Futuristic location par excellence Surrounded by software giants like Microsoft, Infosys, Wipro and Indian School of Business. Hyderabad’s elite schools Oakridge and Delhi Public School are in the vicinity. Ramanaidu Cine Studios have set up their base nearby.
+        <h1 style={{margin:'2rem 0'}}>GOLF VIEW</h1>
+        <p >A Futuristic location par excellence Surrounded by software giants like Microsoft, Infosys, Wipro and Indian School of Business. Hyderabad’s elite schools Oakridge and Delhi Public School are in the vicinity. Ramanaidu Cine Studios have set up their base nearby.
 {/* <br/> */}
 The State Government is also setting up a new financial district. The area is appreciating in value everyday, naturally ! ORR/Express-way junction leading to International Airport is at a stone throw distance from the project with 80 feet connecting road.
 {/* <br/> */}

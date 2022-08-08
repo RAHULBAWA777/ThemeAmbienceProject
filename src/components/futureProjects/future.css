@@ -3,6 +3,15 @@ p{
     margin-bottom: 1rem !important;
     color: black;
 }
-.fort>p{
+.future{
+    margin-top: 4rem;
+    background-color: var(--secondary-01);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.future >p{
     font-size: large;
+    line-height: 4rem;
 }

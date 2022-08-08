@@ -4,7 +4,7 @@ import './future.css'
 const ThemeCresta = () => {
 
       return (
-        <div className='fort'>
+        <div className='future'>
             <h1>FUTURE PROJECTS</h1>
             <p>Fort Annexe</p>
             {/* <hr /> */}
