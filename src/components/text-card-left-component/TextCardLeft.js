@@ -4,7 +4,7 @@ export default function TextCardLeft(props) {
     <div className="container-left">
       
       <div className="wrapper-left">
-        <h1>{props?.heading}</h1>
+        <h1 >{props?.heading}</h1>
 
         <div className="wrapper-body-left">
           <span> {props?.subHeading}</span>

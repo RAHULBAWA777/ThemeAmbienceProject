@@ -58,7 +58,7 @@ function App() {
 
       {!burgerButton && <SideBar />}
 
-      <div className="components" id={!burgerButton&&"no-scroll"}>
+      {/* <div className="components" id={!burgerButton&&"no-scroll"}>
         
 
        
@@ -74,7 +74,7 @@ function App() {
           )}
         </div>
       </div>
-      {footer && <Footer />}
+      {footer && <Footer />} */}
     </div>
   );
 }

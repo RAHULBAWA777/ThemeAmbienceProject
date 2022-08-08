@@ -3,7 +3,7 @@ export default function TextCard(props) {
   return (
     <div className="container">
       <div className="wrapper">
-        <h1>{props?.heading}</h1>
+        <h1 style={{marginTop:"5rem"}}>{props?.heading} </h1>
 
         <div className="wrapper-body">
           <span> {props?.subHeading}</span>

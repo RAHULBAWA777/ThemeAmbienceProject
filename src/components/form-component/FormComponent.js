@@ -10,8 +10,8 @@ export default function Form(){
         <label className="form-header">FEEDBACK</label>
         
         
-        <label>Name</label>
-        
+        {/* <label>Name</label> */}
+        <br/>
         <input 
         className="input-box"
         placeholder="Name"
@@ -19,7 +19,8 @@ export default function Form(){
           type='text' 
         />
         
-        <label>Mobile</label>
+        {/* <label>Mobile</label> */}
+        <br/>
         
         <input
         className="input-box"
@@ -28,8 +29,8 @@ export default function Form(){
          type='number'
         />
         
-        <label>Email</label>
-        
+        {/* <label>Email</label> */}
+        <br/>
         <input
         className="input-box"
         placeholder="Email"

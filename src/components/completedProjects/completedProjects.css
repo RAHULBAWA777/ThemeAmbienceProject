@@ -24,3 +24,7 @@
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
   }
+  .card{
+    border: none!important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
