@@ -1,14 +1,26 @@
-.navbar{
-    width: 100vw!important;
+.navbar {
+    width: 100vw !important;
+    /* justify-content: center !important; */
+}
+.mx{
+    padding-left: 14rem!important;
 }
 
-i{
+i {
     color: rgb(0, 0, 0);
     font-size: 25px;
     padding: 0 5px;
     cursor: pointer;
 }
-i:hover{
+
+
+i:hover {
     color: maroon;
     transition: 500ms;
 }
+
+@media screen and (max-width:600px){
+    .mx{
+        padding-left: 0!important;
+    }
+} 

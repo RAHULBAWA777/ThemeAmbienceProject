@@ -7,7 +7,7 @@ export default function Form(){
     }
     return (
         <form onSubmit={e => {handleSubmit(e)}} className="form">
-        <label className="form-header">FEEDBACK</label>
+        <label className="form-header">Register Your Interest</label>
         
         
         {/* <label>Name</label> */}

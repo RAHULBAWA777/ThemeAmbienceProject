@@ -3,15 +3,17 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--secondary-01);
+    
 }
 
 .golf {
-    margin-top: 4rem;
+    /* margin-top: 14rem; */
     background-color: var(--secondary-01);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 
 .golf>img {
@@ -19,7 +21,7 @@ body {
 }
 
 .fort {
-    margin-top: 4rem;
+    /* margin-top: 10rem; */
     background-color: var(--secondary-01);
     display: flex;
     justify-content: center;
@@ -32,7 +34,7 @@ body {
 }
 
 .lake {
-    margin-top: 4rem;
+    /* margin-top: 14rem; */
     background-color: var(--secondary-01);
     display: flex;
     justify-content: center;
@@ -46,7 +48,7 @@ body {
 }
 
 .temple {
-    margin-top: 4rem;
+    /* margin-top: 9rem; */
     background-color: var(--secondary-01);
     display: flex;
     justify-content: center;
@@ -74,7 +76,7 @@ body {
     top: 55%;
     box-shadow: rgba(240, 211, 46, 0.4) 5px 5px, rgba(240, 179, 46, 0.3) 10px 10px, rgba(240, 191, 46, 0.2) 15px 15px, rgba(240, 185, 46, 0.1) 20px 20px, rgba(240, 179, 46, 0.05) 25px 25px;
 }
-hr{
+.hh{
     width: 50%;
     margin-left: 25%!important;
     margin-right: 25%!important;

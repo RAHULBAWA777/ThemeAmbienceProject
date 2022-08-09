@@ -19,8 +19,8 @@ const CompletedProjects = () => {
             <div className="card " style={{ width: '20rem',marginTop:'2rem' }}>
               <img src={Swapanlok} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Swapanlok</h5>
-                {/* <a href="#" className="btn btn-primary">More Details</a> */}
+                <h5 className="card-title mx-auto">Swapanlok</h5>
+                <p class="card-text mx-auto">Secunderabad, Andhra Pradesh</p>
               </div>
             </div>
           </div>
@@ -29,8 +29,8 @@ const CompletedProjects = () => {
             <div className="card " style={{ width: '20rem',marginTop:'2rem' }}>
               <img src={Indralok} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Indralok Complex</h5>
-                {/* <a href="#" className="btn btn-primary">More Details</a> */}
+                <h5 className="card-title mx-auto">Indralok Complex</h5>
+                <p class="card-text mx-auto">Road No.1, Banjara Hills</p>
               </div>
             </div>
           </div>
@@ -39,8 +39,8 @@ const CompletedProjects = () => {
             <div className="card " style={{ width: '20rem',marginTop:'2rem' }}>
               <img src={ambience_avenue} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Ambience Avenue</h5>
-                {/* <a href="#" className="btn btn-primary">More Details</a> */}
+                <h5 className="card-title mx-auto">Ambience Avenue</h5>
+                <p class="card-text mx-auto">Srinagar Colony, Hyderabad</p>
               </div>
             </div>
           </div>
@@ -49,8 +49,8 @@ const CompletedProjects = () => {
             <div className="card " style={{ width: '20rem',marginTop:'2rem' }}>
               <img src={whisper_valley} className="card-img-top" alt="..." style={{height:'13rem'}}/>
               <div className="card-body">
-                <h5 className="card-title">Whisper Valley</h5>
-                {/* <a href="#" className="btn btn-primary">More Details</a> */}
+                <h5 className="card-title mx-auto">Whisper Valley</h5>
+                <p class="card-text mx-auto">Jubilee Hills, Hyderabad</p>
               </div>
             </div>
           </div>
@@ -59,8 +59,8 @@ const CompletedProjects = () => {
             <div className="card " style={{ width: '20rem',marginTop:'2rem' }}>
               <img src={canton} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Ambience Canton</h5>
-                {/* <a href="#" className="btn btn-primary">More Details</a> */}
+                <h5 className="card-title mx-auto">Ambience Canton</h5>
+                <p class="card-text mx-auto">National Highway No.7 near Secunderabad</p>
               </div>
             </div>
           </div>
@@ -69,8 +69,8 @@ const CompletedProjects = () => {
             <div className="card " style={{ width: '20rem',marginTop:'2rem' }}>
               <img src={anthem} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Ambience Anthem</h5>
-                {/* <a href="#" className="btn btn-primary">More Details</a> */}
+                <h5 className="card-title mx-auto">Ambience Anthem</h5>
+                <p class="card-text mx-auto">National Highway No.7 near Secunderabad</p>
               </div>
             </div>
           </div>
@@ -79,26 +79,26 @@ const CompletedProjects = () => {
             <div className="card" style={{ width: '20rem',marginTop:'2rem' }}>
               <img src={ambiencefort} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Ambience Fort</h5>
-                {/* <a href="#" className="btn btn-primary">More Details</a> */}
+                <h5 className="card-title mx-auto">Ambience Fort</h5>
+                <p class="card-text mx-auto">Road No.1, Banjara Hills</p>
               </div>
             </div>
           </div>
-          <div class="col-4">
+          {/* <div class="col-4">
             <div className="card" style={{ width: '20rem',marginTop:'2rem' }}>
               <img src={Swapanlok} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Swapanlok</h5>
-                {/* <a href="#" className="btn btn-primary">More Details</a> */}
+                <h5 className="card-title mx-auto">Swapanlok</h5>
+                <p class="card-text">Road No.1, Banjara Hills</p>
               </div>
             </div>
-          </div>
+          </div> */}
           <div class="col-4">
             <div className="card" style={{ width: '20rem',marginTop:'2rem' }}>
               <img src={temple} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Tirupathi Temple Town</h5>
-                {/* <a href="#" className="btn btn-primary">More Details</a> */}
+                <h5 className="card-title mx-auto">Tirupathi Temple Town</h5>
+                {/* <p class="card-text">Road No.1, Banjara Hills</p> */}
               </div>
             </div>
           </div>

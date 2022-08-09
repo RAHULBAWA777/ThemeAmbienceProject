@@ -19,8 +19,8 @@ export default function CarouselComponent() {
         return () => window.removeEventListener("resize", resizeWindow);
     }, []);
     return (
-        <div className="carousel-wrapper" >
-            <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false} showStatus={false}  >
+        <div className="carousel-wrapper" style={{marginTop:'-3rem'}}>
+            <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false} showStatus={false} >
                 <div >
                 <img alt="img3" src={LakeImage} style={{height:screen<480?'14rem':'42rem'}}/>
                 </div>

@@ -48,7 +48,7 @@ function App() {
             <Route exact path="/ThemeFortVista" element={<ThemeFort/>} />
             <Route exact path="/ThemeCrest" element={<ThemeCresta/>} />
             <Route exact path="/contact" element={<Contact/>} />
-            <Route exact path="/feedback" element={<Feedback/>} />
+            {/* <Route exact path="/feedback" element={<Feedback/>} /> */}
             <Route exact path="/comProjects" element={<CompletedProjects/>} />
             <Route exact path="/project" element={<Project/>} />
 
