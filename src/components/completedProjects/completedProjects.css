@@ -1,29 +1,21 @@
 .card-title {
+ 
+    text-transform: uppercase;
     font-family: "playfairdisplayregular";
     font-weight: 560;
     letter-spacing: 0.83px;
+    font-size: 1.5rem;
     border-left: solid maroon 4px;
     padding-left: 1rem;
     margin-left: 1rem;
-    background-color: maroon;
-    background-image: linear-gradient(
-      135deg,
-      rgb(82, 6, 6) 0%,
-      rgb(143, 7, 7) 12%,
-      rgb(157, 73, 73) 26%,
-      rgb(209, 7, 7) 43%,
-      rgb(134, 33, 33) 61%,
-      rgb(143, 33, 33) 80%,
-      rgb(111, 11, 11) 100%
-    );
+    color: maroon;
+    /* background-color: rgb(243, 194, 134); */
   
-    background-size: 100%;
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
   }
+ body{
+  background-color: rgb(243, 194, 134);
+
+ }
   .card{
     border: none!important;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;

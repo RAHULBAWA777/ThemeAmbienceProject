@@ -25,15 +25,10 @@ const Navbar = () => {
                                 Current Projects
                             </a>
                             <ul className="dropdown-menu">
-                                <li><Link className="dropdown-item" to="/GolfView">Golf View</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/LakeView">Lake View</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/FortView">Fort View</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
+                                
                                 <li><Link className="dropdown-item" to="/TirupatiTempleTown">Tirupati Temple Town</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/project">3D Project</Link></li>
+                                <li><Link className="dropdown-item" to="/project">Theme Imperial</Link></li>
                             </ul>
                         </li>
                         <li className="nav-item dropdown ">
@@ -60,7 +55,13 @@ const Navbar = () => {
                                 <li><Link className="dropdown-item" to="/comProjects">Tirupati Temple Town</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
                                 <li><Link className="dropdown-item" to="/comProjects">@ Kukapally-Emami</Link></li>
-
+                                <li><hr className="dropdown-divider" /></li>
+                                <li><Link className="dropdown-item" to="/comProjects">Golf View</Link></li>
+                                <li><hr className="dropdown-divider" /></li>
+                                <li><Link className="dropdown-item" to="/comProjects">Lake View</Link></li>
+                                <li><hr className="dropdown-divider" /></li>
+                                <li><Link className="dropdown-item" to="/comProjects">Emami Swanlake</Link></li>
+                                <li><hr className="dropdown-divider" /></li>
                             </ul>
                         </li>
                         <li className="nav-item dropdown ">

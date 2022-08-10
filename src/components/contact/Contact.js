@@ -18,7 +18,7 @@ const Contact = () => {
             <h5>D.No 8-2-293/82/L/1-B. 1st Floor,</h5>
             <h5>MLA Colony, Road No. 12,</h5>
             <h5>Banjara Hills, Hyderabad - 500O34</h5>
-            <hr/>
+          
           </div>
           <div className='two'>
             <img className='pic' src={call} alt='globe'/>
@@ -26,7 +26,7 @@ const Contact = () => {
             <h5>Ph : 040-23377851/2/3,</h5>
         <h5>Mobile : +91-9391050852, 9393008035, 9177711339</h5>
         <h5>Fax : 040-23377854</h5>
-        <hr/>
+       
           </div>
           <div className='three'>
             <img className='pic' src={mail} alt='globe'/>

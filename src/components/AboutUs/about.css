@@ -26,9 +26,9 @@ hr{
 @media screen and (max-width:600px) {
    .containerx{
     height: 100%;
-    padding: 0;
    }
    .container>p{
     margin-left: 1.5rem;
    }
+
   }

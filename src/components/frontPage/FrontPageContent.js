@@ -10,12 +10,16 @@ import FortImage from '../../images/fortview_main.jpg'
 import GolfImage from '../../images/golfview_img_banner.jpg'
 import templeImage from '../../images/temple-town-aprt1.jpg'
 import FooterComponent from '../footer-component/FooterComponent';
+import Cards from '../floatingCards/Cards';
 
 const FrontPageContent = () => {
+  
+   
+  
   return (
-    
     <>
     <CarouselComponent/>
+
  <TextCard 
   heading="Welcome to Theme Ambience"
   para="Theme Ambience Constructions Pvt Ltd, a well established construction company headed by Mr. Bimal Kumar Kedia (MD) in the twin cities known for its uncompromising quality standards, and in schedule completion of projects, ever evolving to provide customers with an environment that truly understands their needs and aspirations.
@@ -25,6 +29,7 @@ const FrontPageContent = () => {
   imgOrder="-1"
 />
 
+
 <TextCardLeft
   heading="Golf View"
   subHeading="#HeartOfHyderabad"
@@ -33,7 +38,6 @@ const FrontPageContent = () => {
   img={GolfImage}
   imgOrder="0"
 />
-
 
 <TextCardLeft
   heading="Fort View"
@@ -52,7 +56,7 @@ const FrontPageContent = () => {
   img={templeImage}
   imgOrder="0"
 />
-
+<Cards/>
 <Form />
  <FooterComponent/>
     </>

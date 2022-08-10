@@ -1,8 +1,8 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import './carousel.css'
-import FortImage from '../../images/fortview_main.jpg'
-import GolfImage from '../../images/golfview_img_banner.jpg'
+import FortImage from '../../images/Picture2.jpg'
+import GolfImage from '../../images/Picture1.jpg'
 import LakeImage from '../../images/Highcompressed_1588995805.jpg'
 import templeImage from '../../images/Highcompressed_2057613182.jpg'
 import { useState,useEffect } from "react";
@@ -19,6 +19,7 @@ export default function CarouselComponent() {
         return () => window.removeEventListener("resize", resizeWindow);
     }, []);
     return (
+        <>
         <div className="carousel-wrapper" style={{marginTop:'-3rem'}}>
             <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false} showStatus={false} >
                 <div >
@@ -35,5 +36,6 @@ export default function CarouselComponent() {
                 </div>
             </Carousel>
         </div>
+        </>
     );
 }
