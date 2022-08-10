@@ -26,9 +26,9 @@ const Navbar = () => {
                             </a>
                             <ul className="dropdown-menu">
                                 
-                                <li><Link className="dropdown-item" to="/TirupatiTempleTown">Tirupati Temple Town</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
                                 <li><Link className="dropdown-item" to="/project">Theme Imperial</Link></li>
+                                <li><hr className="dropdown-divider" /></li>
+                                <li><Link className="dropdown-item" to="/TirupatiTempleTown">Tirupati Temple Town Phase-2</Link></li>
                             </ul>
                         </li>
                         <li className="nav-item dropdown ">
@@ -52,7 +52,7 @@ const Navbar = () => {
                                 <li><hr className="dropdown-divider" /></li>
                                 <li><Link className="dropdown-item" to="/comProjects">Ambience Anthem</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/comProjects">Tirupati Temple Town</Link></li>
+                                <li><Link className="dropdown-item" to="/comProjects">Tirupati Temple Town Phase-1</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
                                 <li><Link className="dropdown-item" to="/comProjects">@ Kukapally-Emami</Link></li>
                                 <li><hr className="dropdown-divider" /></li>

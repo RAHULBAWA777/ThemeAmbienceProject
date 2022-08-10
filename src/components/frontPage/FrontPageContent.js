@@ -7,8 +7,8 @@ import Modals from "../modals/Moodals"
 // import orchard from "../../images/ORCHARD.jpg"
 // import road from "../../images/road.jpg"
 import FortImage from '../../images/fortview_main.jpg'
-import GolfImage from '../../images/golfview_img_banner.jpg'
-import templeImage from '../../images/temple-town-aprt1.jpg'
+import GolfImage from '../../images/Picture3.jpg'
+import templeImage from '../../images/Picture4.jpg'
 import FooterComponent from '../footer-component/FooterComponent';
 import Cards from '../floatingCards/Cards';
 
@@ -49,9 +49,12 @@ const FrontPageContent = () => {
 />
 
 <TextCardLeft
-  heading="Tirupati Temple Town"
+  heading="Theme Vista"
   subHeading="#HeartOfHyderabad"
-  para="Tirupati Temple Town is a prestigiious venture floated by one of the most reputed promoters,who in ove two decades have reached commanding positions in the construction industry. "
+  para="A residential project with 1,10,000 sqft built up area consisting of 69 Apartments on 1 Acre land  situated in the vicinity of Golconda Fort near Bapu Ghat, Hyderabad. 
+  The project  had commenced in July 2018 and is in handover stage.
+ The project consists of recreational facilities like club house, children play area, Fire System, STP, WTP and has 24X 7 security system.
+  "
   link="read more ....."
   img={templeImage}
   imgOrder="0"

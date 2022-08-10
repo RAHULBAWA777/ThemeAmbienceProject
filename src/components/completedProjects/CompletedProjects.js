@@ -123,7 +123,7 @@ const CompletedProjects = () => {
             <div className="card" style={{ width: '22rem',marginTop:'2rem' }}>
               <img src={temple} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 style={{fontSize:'1.3rem'}} className="card-title mx-auto">Tirupathi Temple Town</h5>
+                <h5 style={{fontSize:'1.3rem'}} className="card-title mx-auto">Tirupathi Temple Town Phase-1</h5>
                 {/* <p className="card-text">Road No.1, Banjara Hills</p> */}
               </div>
             </div>

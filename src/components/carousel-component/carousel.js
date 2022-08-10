@@ -1,7 +1,7 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import './carousel.css'
-import FortImage from '../../images/Picture2.jpg'
+import FortImage from '../../images/Picture.jpg'
 import GolfImage from '../../images/Picture1.jpg'
 import LakeImage from '../../images/Highcompressed_1588995805.jpg'
 import templeImage from '../../images/Highcompressed_2057613182.jpg'
