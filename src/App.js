@@ -1,21 +1,14 @@
 //importing components
-import Footer from "../src/components/footer-component/FooterComponent";
-// import Header from "./components/header-component/HeaderComponent";
+
 import {
   BrowserRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
-import Modals from "./components/modals/Modals"
-
-import SideBar from "./components/sideBar-component/SideBar";
-
-
 import "./App.css";
 import { useState } from "react";
 
 //importing images
-// import open from "./images/Open.jpg"
 
 import Navbar from "./components/NewHeader/Navbar";
 import AboutUs from "./components/AboutUs/AboutUs";
@@ -32,8 +25,7 @@ import Project from "./components/currentProjects/Project";
 
 
 function App() {
-  const [footer, setFooter] = useState(false);
-  const [burgerButton, setBurgerButton] = useState(true);
+
   return (
     <div className="App">
       <Router>
@@ -54,11 +46,9 @@ function App() {
 
           </Routes>
       </Router>
-      <Modals/>
 
      
 
-      {!burgerButton && <SideBar />}
     </div>
   );
 }

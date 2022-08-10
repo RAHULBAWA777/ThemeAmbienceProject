@@ -8,11 +8,11 @@ import Odometer from 'react-odometerjs';
 const Cards = () => {
   return (
     <div className='box'>
-        <div className='b1'>
+        <div className='b1'> <div className='h'>Current Projects</div>
         <FastCounter
           delay={2000}
           startNumber={0}
-          to={10}
+          to={2}
           style={{
             color: "black",
             fontWeight:'bold' 
@@ -20,17 +20,19 @@ const Cards = () => {
           className={"randomClass"}
         />+ 
            </div>
-        <div className='b2'><FastCounter
+        <div className='b2'><div className='h'>Completed Projects</div>
+          <FastCounter
           delay={2000}
           startNumber={0}
-          to={5}
+          to={11}
           style={{
             color: "black",
             fontWeight:'bold' 
           }}
           className={"randomClass"}
         />+</div>
-        <div className='b3'><FastCounter
+        <div className='b3'><div className='h'>Future Projects</div>
+          <FastCounter
           delay={2000}
           startNumber={0}
           to={2}

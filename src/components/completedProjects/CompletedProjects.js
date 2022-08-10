@@ -19,7 +19,7 @@ const CompletedProjects = () => {
       <div className=' container' style={{ height: '100%', marginTop: '1rem' }}>
 
         <div className='row'>
-          <div className="col-4">
+          <div className="col-sm-4">
             <div className="card " style={{ width: '22rem',marginTop:'2rem' }}>
               <img src={Swapanlok} className="card-img-top" alt="..." />
               <div className="card-body">
@@ -29,7 +29,7 @@ const CompletedProjects = () => {
             </div>
           </div>
 
-          <div className="col-4">
+          <div className="col-sm-4">
             <div className="card " style={{ width: '22rem',marginTop:'2rem' }}>
               <img src={Indralok} className="card-img-top" alt="..." />
               <div className="card-body">
@@ -39,7 +39,7 @@ const CompletedProjects = () => {
             </div>
           </div>
 
-          <div className="col-4">
+          <div className="col-sm-4">
             <div className="card " style={{ width: '22rem',marginTop:'2rem' }}>
               <img src={ambience_avenue} className="card-img-top" alt="..." />
               <div className="card-body">
@@ -49,7 +49,7 @@ const CompletedProjects = () => {
             </div>
           </div>
 
-          < div className="col-4">
+          < div className="col-sm-4">
             <div className="card " style={{height:'18rem', width: '22rem',marginTop:'2rem' }}>
               <img src={whisper_valley} className="card-img-top" alt="..." style={{height:'13rem'}}/>
               <div className="card-body">
@@ -59,7 +59,7 @@ const CompletedProjects = () => {
             </div>
           </div>
 
-          <div className="col-4">
+          <div className="col-sm-4">
             <div className="card " style={{ width: '22rem',marginTop:'2rem' }}>
               <img src={canton} className="card-img-top" alt="..." />
               <div className="card-body">
@@ -69,7 +69,7 @@ const CompletedProjects = () => {
             </div>
           </div>
 
-          <div className="col-4">
+          <div className="col-sm-4">
             <div className="card " style={{ width: '22rem',marginTop:'2rem' }}>
               <img src={anthem} className="card-img-top" alt="..." />
               <div className="card-body">
@@ -79,7 +79,7 @@ const CompletedProjects = () => {
             </div>
           </div>
 
-          <div className="col-4">
+          <div className="col-sm-4">
             <div className="card" style={{ width: '22rem',marginTop:'2rem' }}>
               <img src={ambiencefort} className="card-img-top" alt="..." />
               <div className="card-body">
@@ -89,7 +89,7 @@ const CompletedProjects = () => {
             </div>
           </div>
 
-          <div className="col-4">
+          <div className="col-sm-4">
             <div className="card" style={{height:'18rem', width: '22rem',marginTop:'2rem' }}>
               <img src={Emami} className="card-img-top" alt="..." />
               <div className="card-body">
@@ -99,7 +99,7 @@ const CompletedProjects = () => {
             </div>
           </div>
 
-          <div className="col-4">
+          <div className="col-sm-4">
             <div className="card" style={{height:'18rem', width: '22rem',marginTop:'2rem' }}>
               <img src={GolfImage} className="card-img-top" alt="..." />
               <div className="card-body">
@@ -109,7 +109,7 @@ const CompletedProjects = () => {
             </div>
           </div>
 
-          <div className="col-4">
+          <div className="col-sm-4">
             <div className="card" style={{height:'18rem', width: '22rem',marginTop:'2rem' }}>
               <img src={LakeImage} className="card-img-top" alt="..." />
               <div className="card-body">
@@ -119,17 +119,18 @@ const CompletedProjects = () => {
             </div>
           </div>
 
-          <div className="col-4">
+          <div className="col-sm-4">
             <div className="card" style={{ width: '22rem',marginTop:'2rem' }}>
               <img src={temple} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title mx-auto">Tirupathi Temple Town</h5>
+                <h5 style={{fontSize:'1.3rem'}} className="card-title mx-auto">Tirupathi Temple Town</h5>
                 {/* <p className="card-text">Road No.1, Banjara Hills</p> */}
               </div>
             </div>
           </div>
         </div>
       </div>
+   
     </>
   )
 }

@@ -3,7 +3,7 @@ import TextCard from "../text-card-component/TextCard";
 import Form from "../form-component/FormComponent";
 import CarouselComponent from "../carousel-component/carousel";
 import TextCardLeft from "../text-card-left-component/TextCardLeft";
-import Modals from "../modals/Modals"
+import Modals from "../modals/Moodals"
 // import orchard from "../../images/ORCHARD.jpg"
 // import road from "../../images/road.jpg"
 import FortImage from '../../images/fortview_main.jpg'
