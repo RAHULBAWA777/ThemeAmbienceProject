@@ -1,0 +1,16 @@
+.pop-up{
+ color: black;
+ width: 10rem;
+ height: 10rem;
+ 
+ position: absolute;
+ background-color: aquamarine;
+ z-index: 10;
+ margin-top: 40rem;
+ margin-left: 30rem;
+ 
+}
+
+.pop-up-closed{
+    display: none;
+}

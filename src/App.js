@@ -6,7 +6,7 @@ import {
   Route,
 } from "react-router-dom";
 import "./App.css";
-import { useState } from "react";
+
 
 //importing images
 
@@ -48,7 +48,7 @@ function App() {
       </Router>
 
      
-
+     
     </div>
   );
 }

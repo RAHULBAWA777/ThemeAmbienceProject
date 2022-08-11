@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import TextCard from "../text-card-component/TextCard";
 import Form from "../form-component/FormComponent";
 import CarouselComponent from "../carousel-component/carousel";
 import TextCardLeft from "../text-card-left-component/TextCardLeft";
-import Modals from "../modals/Moodals"
+import PopUpComponent from "../popUp/PopUp";
 // import orchard from "../../images/ORCHARD.jpg"
 // import road from "../../images/road.jpg"
 import FortImage from '../../images/Picture7.jpg'
@@ -11,15 +11,19 @@ import FortImage from '../../images/Picture7.jpg'
 import templeImage from '../../images/temple-town-aprt1.jpg'
 import FooterComponent from '../footer-component/FooterComponent';
 import Cards from '../floatingCards/Cards';
+import "./frontPage.css"
 
 const FrontPageContent = () => {
 
+  const[popUpState,setPopUpState]=useState(true)
 
 
   return (
     <>
+      
+      <PopUpComponent popUpState={popUpState} setPopUpState={setPopUpState}/>
+      <div className={popUpState&&'wrapper-blurred'}>
       <CarouselComponent />
-
       <TextCard
         heading="Welcome to Theme Ambience"
         para="Theme Ambience Constructions Pvt Ltd, a well established construction company headed by Mr. Bimal Kumar Kedia (MD) in the twin cities known for its uncompromising quality standards, and in schedule completion of projects, ever evolving to provide customers with an environment that truly understands their needs and aspirations.
@@ -85,6 +89,7 @@ const FrontPageContent = () => {
       <br/>
       <br/>
       <FooterComponent />
+    </div>
     </>
   )
 }
