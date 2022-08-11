@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <>
     <div className='row'>
-          <div class="col-6">
+          <div className="col-6">
         <div className="cont">
           <div className='one'>
             <img className='pic' src={globe} alt='globe'/>

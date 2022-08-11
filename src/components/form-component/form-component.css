@@ -16,7 +16,7 @@
 
 
 .form{
-    background-color: var(--secondary-01);
+    background-color: var(--bg-color-theme);
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -32,7 +32,7 @@ width: 70%;
 background-color: var(--secondary-01);
 height: 2rem;
 padding: 0 1rem;
-color:white;
+/* color:white; */
 }
 
 .submitButton{

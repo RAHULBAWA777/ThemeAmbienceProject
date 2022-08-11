@@ -43,6 +43,18 @@ const Cards = () => {
           }}
           className={"randomClass"}
         />+</div>
+        <div className='b2'><div className='h'>Experience</div>
+          <FastCounter
+          delay={2000}
+          startNumber={0}
+          to={40}
+          style={{
+            color: "black",
+            fontWeight:'bold',
+            transition:'1s' 
+          }}
+          className={"randomClass"}
+        />+</div>
     </div>
   )
 }

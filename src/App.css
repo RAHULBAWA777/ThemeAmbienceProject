@@ -1,10 +1,10 @@
 
 html{
-  background-color: var(--secondary-01);
+  background-color: var(--bg-color-theme);
 }
 .App {
   text-align: center;
-  background-color:var(--secondary-01);
+  background-color:var(--bg-color-theme);
   padding-bottom:2rem;
 }
 
@@ -29,6 +29,7 @@ html{
   --dark-gray:#838383;
   --white-color:white;
   --light-white-color:rgb(219, 249, 213);
+  --bg-color-theme:rgb(245,208,180);
 }
 
 

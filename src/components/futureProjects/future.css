@@ -5,7 +5,7 @@ p{
 }
 .future{
     margin-top: 4rem;
-    background-color: var(--secondary-01);
+    background-color: var(--bg-color-theme);
     display: flex;
     justify-content: center;
     align-items: center;

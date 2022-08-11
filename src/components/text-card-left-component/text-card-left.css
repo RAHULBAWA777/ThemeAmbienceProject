@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,700&family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
 .container-left{
   max-width: 20rem;
+  margin-top: 4rem;
 }
 .wrapper-left{
 display: flex;
@@ -57,7 +58,7 @@ p {
 .card-img-left{
   width:100vw;
   margin-bottom: -0.25rem;
-  height: 20rem;
+  height: 25rem;
 }
 
 @media only screen and (min-width: 650px) {
@@ -73,7 +74,7 @@ p {
   flex-direction: column;
   text-align: left;
   padding: auto 2rem auto 7rem;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--bg-color-theme);
   justify-content: center;
   font-family: "proximanovaregular";
   width:40%;

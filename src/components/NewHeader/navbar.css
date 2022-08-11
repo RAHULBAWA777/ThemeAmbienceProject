@@ -1,7 +1,9 @@
 .navbar {
     width: 100vw !important;
     /* justify-content: center !important; */
+    background-color: #F4D392!important;
 }
+
 .mx{
     padding-left: 14rem!important;
 }
