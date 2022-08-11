@@ -6,12 +6,12 @@ flex-direction: row;
 align-items: center;
 justify-content: center;
 height: 19rem;
+color: maroon;
 }
 .h{
     font-size: medium;
     display: inline-block;
     position: relative;
-    color: maroon;
     font: bold;
 }
 .h:after {

@@ -76,6 +76,12 @@ body {
     top: 60%;
     box-shadow: rgba(240, 211, 46, 0.4) 5px 5px, rgba(240, 179, 46, 0.3) 10px 10px, rgba(240, 191, 46, 0.2) 15px 15px, rgba(240, 185, 46, 0.1) 20px 20px, rgba(240, 179, 46, 0.05) 25px 25px;
 }
+.banner-hidden{
+    display: none;
+}
+#btn{
+    margin-left: -15rem;
+}
 .hh{
     width: 50%;
     margin-left: 25%!important;

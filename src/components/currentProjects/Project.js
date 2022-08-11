@@ -1,4 +1,4 @@
-import useState from 'react'
+import {useState} from 'react'
 import './currentViews.css'
 import Logo from '../../images/Theme-Imperial-logo.png'
 import years from '../../images/40 years.png'
@@ -17,6 +17,7 @@ import f7 from '../../images/f7.jpg'
 import f8 from '../../images/f8.jpg'
 
 const Project = () => {
+  const[hiddenState,setHiddenState]=useState(false)
   return (
     <>
       <div >
@@ -24,8 +25,10 @@ const Project = () => {
           title='3D Project'
           frameBorder='0' referrerPolicy='no-referrer-when-downgrade' />
       </div>
+      
       <div className='banner'>
-        <button id='btn'>-</button>
+      <button id='btn' onClick={()=>setHiddenState(!hiddenState)}>-</button>
+      <div className={hiddenState&&'banner-hidden'} >
         <img src={Logo} alt='logo' height={90} width={200} />
         <h1 style={{ fontSize: '20px' }}>Theme Ambience Group</h1>
         <h6>TS RERA No:P02400004462</h6>
@@ -37,6 +40,8 @@ const Project = () => {
         <hr className='hh' />
         <h4 style={{ fontSize: '16px' }}>3BHK Apartments | 78 Units</h4>
         <h5 style={{ fontSize: '15px' }}>1775 Sq.ft - 2638 Sq.ft</h5>
+      </div>
+      
       </div>
       <div className='bn2'>
         <img src={years} alt='logo' height={90} width={200} />
