@@ -1,8 +1,12 @@
 .navbar {
     width: 100vw !important;
-    /* justify-content: center !important; */
-    background-color: #F4D392!important;
+    justify-content: center !important;
 }
+/* .navbar-light {
+    background-color: yellow !important;
+    border: none !important;
+    border-width:0!important;
+} */
 
 .mx{
     padding-left: 14rem!important;

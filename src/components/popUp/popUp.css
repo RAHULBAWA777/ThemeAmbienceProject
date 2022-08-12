@@ -1,16 +1,27 @@
 .pop-up{
  color: black;
- width: 10rem;
- height: 10rem;
- 
+ width: 30rem;
+ height: fit-content;
+ padding: 2rem;
  position: absolute;
- background-color: aquamarine;
+ background-color: rgb(243, 194, 134);
  z-index: 10;
- margin-top: 40rem;
- margin-left: 30rem;
- 
+margin: 30rem auto;
+margin-left: 36%;
+ border-radius: 10px;
 }
-
+.he{
+    border-bottom: 3px solid maroon;
+}
+.hp{
+    padding-top: 1rem ;
+}
 .pop-up-closed{
     display: none;
+}
+.butt{
+    background-color: maroon;
+    color: var(--bg-color-theme);
+    border-radius: 4px;
+    margin-top: 1rem;
 }
