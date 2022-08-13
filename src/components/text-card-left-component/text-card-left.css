@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,700&family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
 .container-left{
   max-width: 20rem;
-  margin-top: 4rem;
+  margin-top: 6rem;
+
 }
 .wrapper-left{
 display: flex;
 flex-direction: column;
 text-align: left;
-background-color: rgb(255, 255, 255);
+background-color: var(--bg-color-theme);
 padding: 1rem 2rem 3rem 1.5rem;
 width: 100vw;
 font-family: "proximanovaregular"; 
@@ -16,6 +17,7 @@ font-family: "proximanovaregular";
 .wrapper-body-left{
   padding-left: 1.5rem;
   padding-right: 0;
+
 }
 
 h1 {
@@ -26,7 +28,7 @@ h1 {
   font-size: 1.5rem;
   border-left: solid rgb(128, 107, 0) 4px;
   padding-left: 1rem;
-
+  /* width: 100%; */
   color: maroon;
 }
 
@@ -58,7 +60,7 @@ p {
 .card-img-left{
   width:100vw;
   margin-bottom: -0.25rem;
-  height: 25rem;
+  height: 30rem;
 }
 
 @media only screen and (min-width: 650px) {

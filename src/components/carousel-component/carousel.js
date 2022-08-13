@@ -23,16 +23,16 @@ export default function CarouselComponent() {
         <div className="carousel-wrapper" style={{marginTop:'-3rem'}}>
             <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false} showStatus={false} >
                 <div >
-                <img alt="img3" src={LakeImage} style={{height:screen<480?'14rem':'42rem'}}/>
+                <img className="pixy" alt="img3" src={LakeImage} style={{height:screen<480?'16rem':'42rem'}}/>
                 </div>
                 <div>
-                    <img alt="img4" src={templeImage} style={{height:screen<480?'14rem':'42rem'}}/>
+                    <img className="pixy" alt="img4" src={templeImage} style={{height:screen<480?'16rem':'42rem'}}/>
                 </div>
                 <div>
-                    <img alt="img1" src={GolfImage}  style={{height:screen<480?'14rem':'42rem'}}/>
+                    <img className="pixy" alt="img1" src={GolfImage}  style={{height:screen<480?'16rem':'42rem'}}/>
                 </div>
                 <div>
-                    <img alt="img2" src={FortImage} style={{height:screen<480?'14rem':'42rem'}}/>
+                    <img className="pixy" alt="img2" src={FortImage} style={{height:screen<480?'16rem':'42rem'}}/>
                 </div>
             </Carousel>
         </div>

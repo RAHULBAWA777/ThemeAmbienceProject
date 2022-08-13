@@ -39,4 +39,14 @@ body{
 .c > form{
     height: 100%;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   
+}
+
+@media screen and (max-width:600px) {
+    .c > form{
+        margin: 3rem 0;
+    }
+    .row{
+        padding: 0 1rem;
+}
 }

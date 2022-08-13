@@ -26,9 +26,11 @@ hr{
 @media screen and (max-width:600px) {
    .containerx{
     height: 100%;
+    width: 100%!important;
+    padding: 0 20px;
    }
-   .container>p{
-    margin-left: 1.5rem;
+   .containerx>p{
+    /* margin-left: 1.5rem; */
    }
 
   }

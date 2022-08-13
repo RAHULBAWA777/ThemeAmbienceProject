@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import TextCard from "../text-card-component/TextCard";
-import Form from "../form-component/FormComponent";
 import CarouselComponent from "../carousel-component/carousel";
 import TextCardLeft from "../text-card-left-component/TextCardLeft";
 import PopUpComponent from "../popUp/PopUp";
 // import orchard from "../../images/ORCHARD.jpg"
 // import road from "../../images/road.jpg"
-import FortImage from '../../images/Picture7.jpg'
 // import GolfImage from '../../images/Picture3.jpg'
+import imperial from '../../images/Highcompressed_2057613182.jpg'
 import templeImage from '../../images/temple-town-aprt1.jpg'
 import FooterComponent from '../footer-component/FooterComponent';
 import Cards from '../floatingCards/Cards';
@@ -51,7 +50,7 @@ const FrontPageContent = () => {
         Total 12 Floors with Built up area up to 434000 sft
         The venture is surrounded by Hospitals such as Zoi, Germanten Hospital, etc… which are just in the range of 1 to 3 Kms On the other hand schools like Glendale, Kangaroo Kids, Army School, etc.. are in the vicinity."
         link="read more ....."
-        img={FortImage}
+        img={imperial}
         imgOrder="-1"
       />
 

@@ -35,4 +35,8 @@ html{
 
 
 
-
+@media screen and (max-width:600px) {
+  .App{
+    padding: 0;
+  }
+}

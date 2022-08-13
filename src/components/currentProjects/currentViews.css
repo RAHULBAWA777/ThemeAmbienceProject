@@ -6,55 +6,16 @@ body {
     
 }
 
-.golf {
-    /* margin-top: 14rem; */
-    background-color: var(--secondary-01);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-}
-
-.golf>img {
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-}
-
-.fort {
-    /* margin-top: 10rem; */
-    background-color: var(--secondary-01);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.fort>img {
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-}
-
-.lake {
-    /* margin-top: 14rem; */
-    background-color: var(--secondary-01);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-}
-
-.lake>img {
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-}
-
 .temple {
     /* margin-top: 9rem; */
     background-color: var(--bg-color-theme);
+    /* background-color: aqua; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .temple>img {
@@ -80,7 +41,23 @@ body {
     display: none;
 }
 #btn{
-    margin-left: -15rem;
+   position: absolute;
+   background-color: maroon;
+   color: aliceblue;
+   font-size: 50px;
+   padding: 0;
+   height: 30px;
+   line-height: 0;
+   /* margin: -20px 10px; */
+   border: none;
+   width: 30px;
+   left: 90%;
+   top: -20px;
+}
+.drop{
+    position: absolute;
+    top: 20.4rem;
+    right: 10%;
 }
 .hh{
     width: 50%;
@@ -127,22 +104,9 @@ line-height: 50px;
     margin: 2rem 0;
 }
 @media screen and (max-width:600px) {
-    .golf>img {
-        width: 100%;
-        height: 15rem;
-    }
+  
 
     .temple>img {
-        width: 100%;
-        height: 15rem;
-    }
-
-    .fort>img {
-        width: 100%;
-        height: 15rem;
-    }
-
-    .lake>img {
         width: 100%;
         height: 15rem;
     }
@@ -150,18 +114,45 @@ line-height: 50px;
     .frame {
         width: 100%;
         height: 40rem;
+        margin: 0 15rem;
     }
-    .hide{
+    /* .hide{
         display:none;
     }
     .show{
         display:block;
-    }
+    } */
 
     .banner {
-        right: auto;
-        top: 130%;
-        width: 80%;
-        margin: 0 10%;
+       display: none;
     }
+    .temple{
+        width: 90%;
+    }
+    .gd{
+        width: 100%;
+    }
+    .proj {
+        width: 80%;
+       margin: 0 0;
+    }
+    .gallery{
+        width: 100%;
+    }
+    .buildingView > img{
+        width: 100%;
+    }
+
+.f{
+    padding: 0;
+    width: 100%;
+}
+.bn2{
+    top: 30%;
+}
+.projectSpecs{
+    width: 100%;
+    font-size: 2px;
+  
+}
 }

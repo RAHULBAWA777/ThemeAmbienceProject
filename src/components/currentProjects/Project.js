@@ -20,16 +20,16 @@ const Project = () => {
   const[hiddenState,setHiddenState]=useState(false)
   return (
     <>
-      <div >
+      <div className='proj'>
         <iframe style={{ width: '80%' }} className='frame' src='https://theme-imperial-3-d-project.vercel.app/'
           title='3D Project'
           frameBorder='0' referrerPolicy='no-referrer-when-downgrade' />
       </div>
       
       <div className='banner'>
-      <button id='btn' onClick={()=>setHiddenState(!hiddenState)}>-</button>
+   <div className={hiddenState&&'drop'}>  <button id='btn'  onClick={()=>setHiddenState(!hiddenState)}>-</button></div>
       <div className={hiddenState&&'banner-hidden'} >
-        <img src={Logo} alt='logo' height={90} width={200} />
+        <img  src={Logo} alt='logo' height={90} width={200} />
         <h1 style={{ fontSize: '20px' }}>Theme Ambience Group</h1>
         <h6>TS RERA No:P02400004462</h6>
         <hr className='hh' />
@@ -44,7 +44,7 @@ const Project = () => {
       
       </div>
       <div className='bn2'>
-        <img src={years} alt='logo' height={90} width={200} />
+        <img src={years} alt='logo' height={100} width={200} />
       </div>
       <div className='projectSpecs'>
         <h1>Current Projects -Theme Imperial</h1>
@@ -65,11 +65,11 @@ const Project = () => {
           The venture is surrounded by Hospitals such as Zoi, Germanten Hospital, etc… which are just in the range of 1 to 3 Kms
           On the other hand schools like Glendale, Kangaroo Kids, Army School, etc.. are in the vicinity.
         </h5>
-        <img src={ground} />
+        <img className='gd' src={ground} />
       </div>
 
       <div className='buildingView container'>
-        <h1>Highlights</h1>
+        <h1>Gallery</h1>
 
         <div className='row'>
 
@@ -108,7 +108,7 @@ const Project = () => {
 
 
       <div className='gallery container'>
-        <h1 style={{marginTop:'10rem'}}>Gallery</h1>
+        <h1 style={{marginTop:'10rem'}}>Floor Plan</h1>
 
         <div className='row'>
 

@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <>
     <div className='row'>
-          <div className="col-6">
+          <div className="col-sm-6">
         <div className="cont">
           <div className='one'>
             <img className='pic' src={globe} alt='globe'/>
@@ -37,7 +37,7 @@ const Contact = () => {
          </div>
     </div>
     
-    <div className="col-6 c">
+    <div className="col-sm-6 c">
     <FormComponent/>
     </div>
     </div>

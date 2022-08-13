@@ -6,7 +6,7 @@
  position: absolute;
  background-color: rgb(243, 194, 134);
  z-index: 10;
-margin: 30rem auto;
+margin: 4rem auto;
 margin-left: 36%;
  border-radius: 10px;
 }
@@ -24,4 +24,15 @@ margin-left: 36%;
     color: var(--bg-color-theme);
     border-radius: 4px;
     margin-top: 1rem;
+    border: none;
+
+}
+@media screen and (max-width:600px){
+    .pop-up{
+        width: 90%;
+        margin: 15% 5%;
+    }
+    .hp{
+        font-size: small;
+    }
 }
