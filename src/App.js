@@ -22,6 +22,11 @@ import ThemeFort from "./components/futureProjects/ThemeFort";
 import Contact from "./components/contact/Contact";
 import CompletedProjects from "./components/completedProjects/CompletedProjects";
 import Project from "./components/currentProjects/Project";
+import ThemeElite from "./components/futureProjects/ThemeElite";
+import ThemeLakeville from "./components/futureProjects/ThemeLakeville";
+import ThemeWhisperValley from "./components/futureProjects/ThemeWhisperValley";
+import ThemeGrandeur from "./components/futureProjects/ThemeGrandeur";
+import ThemePalmSpring from "./components/futureProjects/ThemePalmSpring";
 
 
 function App() {
@@ -33,16 +38,21 @@ function App() {
           <Routes>
             <Route exact path="/" element={<FrontPageContent/>} />
             <Route exact path="/about" element={<AboutUs/>} />
-            {/* <Route exact path="/GolfView" element={<GolfView/>} />
-            <Route exact path="/FortView" element={<FortView/>} />
-            <Route exact path="/LakeView" element={<LakeView/>} /> */}
+          
             <Route exact path="/TirupatiTempleTown" element={<TempleView/>} />
             <Route exact path="/ThemeFortVista" element={<ThemeFort/>} />
             <Route exact path="/ThemeCrest" element={<ThemeCresta/>} />
             <Route exact path="/contact" element={<Contact/>} />
-            {/* <Route exact path="/feedback" element={<Feedback/>} /> */}
+            
             <Route exact path="/comProjects" element={<CompletedProjects/>} />
             <Route exact path="/project" element={<Project/>} />
+
+            <Route exact path="/ThemeCrest" element={<ThemeCresta/>} />
+            <Route exact path="/Elite" element={<ThemeElite/>} />
+            <Route exact path="/Lakeville" element={<ThemeLakeville/>} />
+            <Route exact path="/whisperValley" element={<ThemeWhisperValley/>} />
+            <Route exact path="/Grandeur" element={<ThemeGrandeur/>} />
+            <Route exact path="/palmSpring" element={<ThemePalmSpring/>} />
 
           </Routes>
       </Router>

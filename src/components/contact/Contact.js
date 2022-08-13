@@ -15,16 +15,16 @@ const Contact = () => {
             <img className='pic' src={globe} alt='globe'/>
             {/* <h1>Theme Ambience</h1> */}
             <h3>Head Office</h3>
-            <h5>D.No 8-2-293/82/L/1-B. 1st Floor,</h5>
-            <h5>MLA Colony, Road No. 12,</h5>
-            <h5>Banjara Hills, Hyderabad - 500O34</h5>
+            <h5>Plot 1-B, H.No. 8-2-293/82/L/1-B. 1st Floor,</h5>
+            <h5> MLA Colony, Road No. 12,Banjara Hills,</h5>
+            <h5>Hyderabad - 500034</h5>
           
           </div>
           <div className='two'>
             <img className='pic' src={call} alt='globe'/>
             <h3>Phones</h3>
-            <h5>Ph : 040-23377851/2/3,</h5>
-        <h5>Mobile : +91-9391050852, 9393008035, 9177711339</h5>
+            <h5>Tel:040-23377851/53</h5>
+        <h5>Mobile : 9391415599 / 9391415884 / 6303363461</h5>
         <h5>Fax : 040-23377854</h5>
        
           </div>

@@ -9,6 +9,7 @@ const Cards = () => {
       <div className="b1">
         {" "}
         <div className="h">Current Projects</div>
+        <div className="fast">
         <FastCounter
           delay={2000}
           startNumber={10000}
@@ -20,9 +21,11 @@ const Cards = () => {
           className={"randomClass"}
         />
         +
+        </div>
       </div>
       <div className="b2">
         <div className="h">Completed Projects</div>
+        <div className="fast">
         <FastCounter
           delay={2000}
           startNumber={10000}
@@ -34,13 +37,15 @@ const Cards = () => {
           className={"randomClass"}
         />
         +
-      </div>
+        </div>
+        </div>
       <div className="b3">
         <div className="h">Future Projects</div>
+        <div className="fast">
         <FastCounter
           delay={2000}
           startNumber={10000}
-          to={2}
+          to={4}
           style={{
             color: "black",
             fontWeight: "bold",
@@ -49,9 +54,11 @@ const Cards = () => {
           className={"randomClass"}
         />
         +
+        </div>
       </div>
       <div className="b2">
-        <div className="h">Experience</div>
+        <div className="h">Years Of Experience</div>
+        <div className="fast">
         <FastCounter
           delay={2000}
           startNumber={10000}
@@ -64,6 +71,7 @@ const Cards = () => {
           className={"randomClass"}
         />
         +
+        </div>
       </div>
     </div>
   );

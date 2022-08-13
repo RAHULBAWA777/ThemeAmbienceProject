@@ -1,3 +1,28 @@
 .wrapper-blurred{
     filter: blur(10px);
 }
+.loc{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sc{
+    /* background-color: blue; */
+    padding: 0;
+    margin: 7rem ; 
+}
+.sc >img{
+    width: 20rem;
+}
+@media screen and (max-width:600px){
+    .loc{
+        flex-direction: column;
+    }
+    .sc{
+        margin: 2rem 1rem;
+    }
+    iFrame{
+        width: 90%;
+    }
+}

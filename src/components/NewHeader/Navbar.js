@@ -20,6 +20,9 @@ const Navbar = () => {
                         <li className="nav-item">
                             <Link className="nav-link active" to="/about">About Us</Link>
                         </li>
+                        <li className="nav-item">
+                            <Link className="nav-link active" to="/comProjects">Completed Projects</Link>
+                        </li>
                         <li className="nav-item dropdown ">
                             <a className="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Current Projects
@@ -31,7 +34,7 @@ const Navbar = () => {
                                 <li><Link className="dropdown-item" to="/TirupatiTempleTown">Tirupati Temple Town Phase-2</Link></li>
                             </ul>
                         </li>
-                        <li className="nav-item dropdown ">
+                        {/* <li className="nav-item dropdown ">
                             <a className="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Completed Projects
                             </a>
@@ -63,16 +66,25 @@ const Navbar = () => {
                                 <li><Link className="dropdown-item" to="/comProjects">Emami Swanlake</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
                             </ul>
-                        </li>
+                        </li> */}
+                       
                         <li className="nav-item dropdown ">
                             <a className="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Future Projects
                             </a>
                             <ul className="dropdown-menu">
-                                <li><Link className="dropdown-item" to="/ThemeFortVista">Theme Fort Vista</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
                                 <li><Link className="dropdown-item" to="/ThemeCrest">Theme Crest</Link></li>
-
+                                <li><hr className="dropdown-divider" /></li>
+                                <li><Link className="dropdown-item" to="/Elite">Theme Elite</Link></li>
+                                <li><hr className="dropdown-divider" /></li>
+                                <li><Link className="dropdown-item" to="/Lakeville">Theme Lakeville</Link></li>
+                                <li><hr className="dropdown-divider" /></li>
+                                <li><Link className="dropdown-item" to="/whisperValley">Theme Whisper Valley @ Vijayawada</Link></li>
+                                <li><hr className="dropdown-divider" /></li>
+                                <li><Link className="dropdown-item" to="/Grandeur">Theme Grandeur</Link></li>
+                                <li><hr className="dropdown-divider" /></li>
+                                <li><Link className="dropdown-item" to="/palmSpring">Theme Palm Spring</Link></li>
+                                
                             </ul>
                         </li>
                         {/* <li className="nav-item">

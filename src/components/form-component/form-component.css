@@ -28,7 +28,7 @@
 .input-box{
 border:2px solid maroon;
 border-radius: 0.2rem;
-width: 70%;
+width: 50%;
 background-color: var(--secondary-01);
 height: 2rem;
 padding: 0 1rem;
@@ -37,7 +37,7 @@ padding: 0 1rem;
 
 .submitButton{
     border:2px solid maroon;
-    width: 80%;
+    width: 20%;
     background-color: var(--secondary-01);
     height: 2.5rem;
     padding: 0.5rem 1rem;

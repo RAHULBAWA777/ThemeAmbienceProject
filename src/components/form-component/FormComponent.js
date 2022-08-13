@@ -7,7 +7,7 @@ export default function Form(){
     }
     return (
         <form onSubmit={e => {handleSubmit(e)}} className="form">
-        <label className="form-header">Register Your Visit</label>
+        <label className="form-header">Schedule Your Visit</label>
         
         
         {/* <label>Name</label> */}
@@ -41,7 +41,7 @@ export default function Form(){
         <input 
           className='submitButton'
           type='submit' 
-          value='S U B M I T' 
+          value='S C H E D U L E' 
         />
       </form>)
 }

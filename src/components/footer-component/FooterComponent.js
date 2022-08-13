@@ -13,18 +13,27 @@ export default function FooterComponent() {
         <div className="footer-copyright">
           <div className="footer-subheading"> Contact Us</div>
           <div className="footer-subheading-content">
-            <div className="footer-contact"> Ph : 040-23377851/2/3 </div>{" "}
-            theme@themeambience.com
+            <div className="footer-contact"> Theme Ambience Constructions Pvt Ltd </div>{" "}
+            theme@themeambience.com 
+            www.themeambience.com
+            <br/>
+            Tel:040-23377851/53
+            <br/>
+            Sales22@propbuynsell.com
+            <br/>
+            9391415599 / 9391415884 / 6303363461
           </div>
         </div>
         <div className="footer-copyright">
           <div className="footer-subheading"> Address </div>
           <div className="footer-subheading-content">
-            D.No 8-2-293/82/L/1-B. 1st Floor,
-
+            Plot 1-B, H.No. 8-2-293/82/L/1-B. 1st Floor,
+<br/>
             MLA Colony, Road No. 12,
 
-            Banjara Hills, Hyderabad - 500O34
+            Banjara Hills,
+            <br/>
+             Hyderabad - 500034
           </div>
         </div>
         <div className="footer-copyright">

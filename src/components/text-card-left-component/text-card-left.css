@@ -91,3 +91,8 @@ p {
 }
 
 }
+@media screen and (max-width :600px){
+  .card-img-left{
+   height: 20rem;
+  }
+}

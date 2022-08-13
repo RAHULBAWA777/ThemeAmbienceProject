@@ -11,6 +11,10 @@ import temple from '../../images/temple-town-front1.jpg'
 import Emami from '../../images/fortview_main.jpg'
 import GolfImage from '../../images/golfview_img_banner.jpg'
 import LakeImage from '../../images/main_img.jpg'
+import vista from '../../images/Picture4.jpg'
+import swan from '../../images/Picture10.jpg'
+import FortImage from '../../images/fortview_main.jpg'
+
 
 
 const CompletedProjects = () => {
@@ -20,8 +24,8 @@ const CompletedProjects = () => {
 
         <div className='row'>
           <div className="col-sm-4">
-            <div className="card " style={{ width: '22rem',marginTop:'2rem' }}>
-              <img src={Swapanlok} className="card-img-top" alt="..." />
+            <div className="card " style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
+              <img style={{height:'13rem', width: '22rem' }} src={Swapanlok} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title mx-auto">Swapanlok</h5>
                 <p className="card-text mx-auto">Secunderabad, Andhra Pradesh</p>
@@ -30,8 +34,8 @@ const CompletedProjects = () => {
           </div>
 
           <div className="col-sm-4">
-            <div className="card " style={{ width: '22rem',marginTop:'2rem' }}>
-              <img src={Indralok} className="card-img-top" alt="..." />
+            <div className="card " style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
+              <img style={{height:'13rem', width: '22rem' }} src={Indralok} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title mx-auto">Indralok Complex</h5>
                 <p className="card-text mx-auto">Road No.1, Banjara Hills</p>
@@ -40,8 +44,8 @@ const CompletedProjects = () => {
           </div>
 
           <div className="col-sm-4">
-            <div className="card " style={{ width: '22rem',marginTop:'2rem' }}>
-              <img src={ambience_avenue} className="card-img-top" alt="..." />
+            <div className="card " style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
+              <img style={{height:'13rem', width: '22rem' }} src={ambience_avenue} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title mx-auto">Ambience Avenue</h5>
                 <p className="card-text mx-auto">Srinagar Colony, Hyderabad</p>
@@ -50,8 +54,8 @@ const CompletedProjects = () => {
           </div>
 
           < div className="col-sm-4">
-            <div className="card " style={{height:'18rem', width: '22rem',marginTop:'2rem' }}>
-              <img src={whisper_valley} className="card-img-top" alt="..." style={{height:'13rem'}}/>
+            <div className="card " style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
+              <img style={{height:'13rem', width: '22rem' }} src={whisper_valley} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title mx-auto">Whisper Valley</h5>
                 <p className="card-text mx-auto">Jubilee Hills, Hyderabad</p>
@@ -60,38 +64,38 @@ const CompletedProjects = () => {
           </div>
 
           <div className="col-sm-4">
-            <div className="card " style={{ width: '22rem',marginTop:'2rem' }}>
-              <img src={canton} className="card-img-top" alt="..." />
+            <div className="card " style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
+              <img style={{height:'13rem', width: '22rem' }} src={canton} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title mx-auto">Ambience Canton</h5>
-                <p className="card-text mx-auto">National Highway No.7 near Secunderabad</p>
+                <p className="card-text mx-auto">Secunderabad, Medchal</p>
               </div>
             </div>
           </div>
 
           <div className="col-sm-4">
-            <div className="card " style={{ width: '22rem',marginTop:'2rem' }}>
-              <img src={anthem} className="card-img-top" alt="..." />
+            <div className="card " style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
+              <img style={{height:'13rem', width: '22rem' }} src={anthem} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title mx-auto">Ambience Anthem</h5>
-                <p className="card-text mx-auto">National Highway No.7 near Secunderabad</p>
+                <p className="card-text mx-auto"> Secunderabad, Medchal</p>
               </div>
             </div>
           </div>
 
           <div className="col-sm-4">
-            <div className="card" style={{ width: '22rem',marginTop:'2rem' }}>
-              <img src={ambiencefort} className="card-img-top" alt="..." />
+            <div className="card" style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
+              <img style={{height:'13rem', width: '22rem' }} src={ambiencefort} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title mx-auto">Ambience Fort</h5>
-                <p className="card-text mx-auto">Road No.1, Banjara Hills</p>
+                <p className="card-text mx-auto">Attapur, Rajendra Nagar</p>
               </div>
             </div>
           </div>
 
           <div className="col-sm-4">
-            <div className="card" style={{height:'18rem', width: '22rem',marginTop:'2rem' }}>
-              <img src={Emami} className="card-img-top" alt="..." />
+            <div className="card" style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
+              <img style={{height:'13rem', width: '22rem' }} src={Emami} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title mx-auto">Emami Swanlake</h5>
                 <p className="card-text">Hydersha Kote near Langar House</p>
@@ -100,34 +104,66 @@ const CompletedProjects = () => {
           </div>
 
           <div className="col-sm-4">
-            <div className="card" style={{height:'18rem', width: '22rem',marginTop:'2rem' }}>
-              <img src={GolfImage} className="card-img-top" alt="..." />
+            <div className="card" style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
+              <img style={{height:'12rem', width: '22rem' }} src={GolfImage} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title mx-auto">Golf View</h5>
-                {/* <p className="card-text">Hydersha Kote near Langar House</p> */}
+                <h5 className="card-title mx-auto">Theme Golf View</h5>
+                <p className="card-text">Nanakramguda ORR junction, Gachibowli</p>
               </div>
             </div>
           </div>
 
           <div className="col-sm-4">
-            <div className="card" style={{height:'18rem', width: '22rem',marginTop:'2rem' }}>
-              <img src={LakeImage} className="card-img-top" alt="..." />
+            <div className="card" style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
+              <img style={{height:'13rem', width: '22rem' }} src={LakeImage} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title mx-auto">Lake View</h5>
-                <p className="card-text">Situated Adjacent to a lake.</p>
+                <p className="card-text">Shaikpet, Towli Chowki</p>
               </div>
             </div>
           </div>
 
           <div className="col-sm-4">
-            <div className="card" style={{ width: '22rem',marginTop:'2rem' }}>
-              <img src={temple} className="card-img-top" alt="..." />
+            <div className="card" style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
+              <img style={{height:'11rem', width: '22rem' }} src={temple} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 style={{fontSize:'1.3rem'}} className="card-title mx-auto">Tirupathi Temple Town Phase-1</h5>
-                {/* <p className="card-text">Road No.1, Banjara Hills</p> */}
+                <p className="card-text">Renigunta -Tirupati Road</p>
               </div>
             </div>
           </div>
+
+          <div className="col-sm-4">
+            <div className="card" style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
+              <img style={{height:'12rem', width: '22rem' }} src={vista} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 style={{fontSize:'1.3rem'}} className="card-title mx-auto">Theme Vista</h5>
+                <p className="card-text">Golconda Fort, Bapu Ghat</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-sm-4">
+            <div className="card" style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
+              <img style={{height:'13rem', width: '22rem' }} src={swan} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 style={{fontSize:'1.3rem'}} className="card-title mx-auto">Swan Lake</h5>
+                <p className="card-text">Kukatpally</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-sm-4">
+            <div className="card" style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
+              <img style={{height:'13rem', width: '22rem' }} src={FortImage} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 style={{fontSize:'1.3rem'}} className="card-title mx-auto">Fort View</h5>
+                <p className="card-text">Hydershakote on the Chilkur Balaji Temple, Gandipet Road</p>
+              </div>
+            </div>
+          </div>
+
+
         </div>
       </div>
    

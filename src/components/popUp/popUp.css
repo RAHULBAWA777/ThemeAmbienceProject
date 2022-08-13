@@ -3,12 +3,12 @@
  width: 30rem;
  height: fit-content;
  padding: 2rem;
- position: absolute;
- background-color: rgb(243, 194, 134);
+ background-color:  var(--bg-color-theme);
  z-index: 10;
 margin: 4rem auto;
 margin-left: 36%;
  border-radius: 10px;
+ position: fixed;
 }
 .he{
     border-bottom: 3px solid maroon;

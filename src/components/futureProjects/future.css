@@ -1,19 +1,49 @@
-
-p{
-    margin-bottom: 1rem !important;
-    color: black;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-01);
+    
 }
-.future{
-    margin-top: 4rem;
+
+.cresta, .whisperValley, .palmSpring, .lakeville, .grandeur, .elite{
+    /* margin-top: 9rem; */
     background-color: var(--bg-color-theme);
+    /* background-color: aqua; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* width: fit-content;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+    width: 70%;
+    margin: 0 auto;
 }
-.future >p{
-    font-size: large;
-    line-height: 4rem;
+
+.cresta>img {
+    width: 30rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.whisperValley>img {
+    width: 30rem;
+}
+.palmSpring>img {
+    width: 18rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+.elite>img {
+    width: 30rem;
+}
+.lakeville>img {
+    width: 30rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+.grandeur>img {
+    width: 30rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
+.u1{
+    text-align: left;
 }
