@@ -67,7 +67,7 @@ const Project = () => {
         </h5>
         <img className='gd' src={ground} />
       </div>
-      <h1 style={{width:'40%', margin:'70px auto'}}>2BHK 360<span>&#176;</span> Virtual Tour</h1>
+      <h1 style={{width:'40%', margin:'70px auto'}}>3BHK 360<span>&#176;</span> Virtual Tour</h1>
       <iframe src="https://app.lapentor.com/sphere/3bhk-imperial" frameBorder="0" width="60%" height="450" scrolling="no" allow="vr,gyroscope,accelerometer" allowFullScreen={true}  mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
       <br/>
       <br/>
