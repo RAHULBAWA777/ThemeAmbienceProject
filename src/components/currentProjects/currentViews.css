@@ -34,8 +34,9 @@ body {
     position: absolute;
     border-radius: 10px;
     right: 75%;
-    top: 60%;
+    top: 65%;
     box-shadow: rgba(240, 211, 46, 0.4) 5px 5px, rgba(240, 179, 46, 0.3) 10px 10px, rgba(240, 191, 46, 0.2) 15px 15px, rgba(240, 185, 46, 0.1) 20px 20px, rgba(240, 179, 46, 0.05) 25px 25px;
+    
 }
 .banner-hidden{
     display: none;
@@ -56,7 +57,7 @@ body {
 }
 .drop{
     position: absolute;
-    top: 20.4rem;
+    top: 22.7rem;
     right: 10%;
 }
 .hh{
@@ -72,6 +73,10 @@ body {
 }
 .u{
     text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .banner>h1,

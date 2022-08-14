@@ -8,10 +8,10 @@ export default function TextCardLeft(props) {
 
         <div className="wrapper-body-left">
           <span> {props?.subHeading}</span>
-          <p>{props?.para}</p>
-          <a className="read-page-link" href="#id1">
+          <p className="pp">{props?.para}</p>
+          {/* <a className="read-page-link" href="#id1">
             {props?.link}
-          </a>
+          </a> */}
         </div>
       </div>
       

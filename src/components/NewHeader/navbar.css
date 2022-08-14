@@ -2,12 +2,17 @@
     width: 100vw !important;
     justify-content: center !important;
 }
-/* .navbar-light {
-    background-color: yellow !important;
-    border: none !important;
-    border-width:0!important;
-} */
+.bg-da{
+    background-color: var(bg-color-theme)!important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: maroon!important;
+}
 
+ .dropdown-item, .dropdown-menu{
+    color: maroon!important;
+    background-color: rgb(249, 238, 228)!important;
+}
 .mx{
     padding-left: 14rem!important;
 }

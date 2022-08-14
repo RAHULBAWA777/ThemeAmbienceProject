@@ -25,7 +25,7 @@ h1 {
   font-family: "playfairdisplayregular";
   font-weight: 560;
   letter-spacing: 0.83px;
-  font-size: 1.5rem;
+  font-size: 2rem;
   border-left: solid rgb(128, 107, 0) 4px;
   padding-left: 1rem;
   /* width: 100%; */
@@ -39,14 +39,16 @@ span {
 p {
   color: black;
   font-family: "Montserrat";
-  font-size: 0.8rem;
+  font-size:.8rem;
   line-height: 22px;
   margin: 2rem 0;
   width: 100%;
   letter-spacing: 1px;
   font-weight: 500;
 }
-
+.pp{
+  font-size: 1rem;
+}
 .read-page-link {
   color: maroon;
   text-decoration: none;
@@ -94,5 +96,8 @@ p {
 @media screen and (max-width :600px){
   .card-img-left{
    height: 20rem;
+  }
+  .pp{
+    font-size: .8rem;
   }
 }

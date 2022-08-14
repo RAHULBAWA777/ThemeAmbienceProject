@@ -12,6 +12,7 @@
     padding: 0;
     margin: 7rem ; 
 }
+
 .sc >img{
     width: 20rem;
 }
@@ -20,9 +21,15 @@
         flex-direction: column;
     }
     .sc{
-        margin: 2rem 1rem;
+        margin: 2rem 0rem;
     }
     iFrame{
         width: 90%;
+    }
+    .walkHeader{
+        width: 100%;
+        font-size: 1.3rem;
+        margin-top: 0!important;
+        padding: 0;
     }
 }

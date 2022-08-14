@@ -1,7 +1,6 @@
 import {useState} from 'react'
 import './currentViews.css'
 import Logo from '../../images/Theme-Imperial-logo.png'
-import years from '../../images/40 years.png'
 import ground from '../../images/Master Plan LOW RES.jpg'
 import pi1 from '../../images/Picture6.jpg'
 import pi2 from '../../images/Picture7.jpg'
@@ -52,7 +51,7 @@ const Project = () => {
         <br />
         <br />
         <h2>Theme Imperial @ Attapur, Hyderabad</h2>
-
+        
         <h5>
           <ul className='u'>
             <li>2.25 Acres of Land situated at Attapur, Hyderabad. </li>
