@@ -36,9 +36,7 @@ const Project = () => {
       </div>
       
       </div>
-      {/* <div className='bn2'>
-        <img src={years} alt='logo' height={100} width={200} />
-      </div> */}
+ 
       <div className='projectSpecs'>
         <h1>Theme Imperial</h1>
         <br />
