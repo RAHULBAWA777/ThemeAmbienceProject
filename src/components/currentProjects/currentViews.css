@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,700&family=Merriweather:ital,wght@1,700&family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
 body {
     display: flex;
     justify-content: center;
@@ -24,22 +26,23 @@ body {
 }
 .proj{
     margin-top: 3rem;
+  
 }
 .frame {
-    width: 100%;
-    height: 95vh;
+    /* width: 100%; */
+    height: 100vh;
     position: relative;
 }
 
 .banner {
     background-color: rgb(243, 194, 134);
-    width: 20%;
+    width: 17%;
     position: absolute;
     border-radius: 10px;
-    right: 75%;
-    top: 65%;
+    right: 80%;
+    top: 77%;
     box-shadow: rgba(240, 211, 46, 0.4) 5px 5px, rgba(240, 179, 46, 0.3) 10px 10px, rgba(240, 191, 46, 0.2) 15px 15px, rgba(240, 185, 46, 0.1) 20px 20px, rgba(240, 179, 46, 0.05) 25px 25px;
-    
+    /* height: 6rem; */
 }
 .banner-hidden{
     display: none;
@@ -60,7 +63,7 @@ body {
 }
 .drop{
     position: absolute;
-    top: 22.7rem;
+    top: 19.7rem;
     right: 10%;
 }
 .hh{
@@ -70,6 +73,7 @@ body {
     border: none;
     height: 2px;
     background: black;
+    margin: 10px;
 }
 .s{
     margin: 3rem 0;
@@ -81,13 +85,15 @@ body {
     align-items: center;
     flex-direction: column;
 }
-
+.banner>h6{
+    font-size: 1px;
+}
 .banner>h1,
 h2,
 h3,
 h4,
 h5 {
-    color: maroon
+    color: maroon;
 }
 .bn2{
     /* background-color: rgb(218, 200, 177); */

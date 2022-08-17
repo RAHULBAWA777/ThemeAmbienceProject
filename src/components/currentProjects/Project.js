@@ -6,21 +6,15 @@ import pi1 from '../../images/Picture6.jpg'
 import pi2 from '../../images/Picture7.jpg'
 import pi3 from '../../images/Picture8.jpg'
 import pi4 from '../../images/Picture9.jpg'
-import f1 from '../../images/f1.jpg'
-import f2 from '../../images/f2.jpg'
-import f3 from '../../images/f3.jpg'
-import f4 from '../../images/f4.jpg'
-import f5 from '../../images/f5.jpg'
-import f6 from '../../images/f6.jpg'
-import f7 from '../../images/f7.jpg'
-import f8 from '../../images/f8.jpg'
+
+import CustomModal from './customModal/CustomModal'
 
 const Project = () => {
   const[hiddenState,setHiddenState]=useState(false)
   return (
     <>
       <div className='proj'>
-        <iframe style= {{ width: '80%' }} className='frame' src='https://theme-imperial-3-d-project.vercel.app/'
+        <iframe style= {{ width: '90%' }} className='frame' src='https://theme-imperial-3-d-project.vercel.app/'
           title='3D Project'
           frameBorder='0' referrerPolicy='no-referrer-when-downgrade' />
       </div>
@@ -29,16 +23,16 @@ const Project = () => {
    <div className={hiddenState&&'drop'}>  <button id='btn'  onClick={()=>setHiddenState(!hiddenState)}>-</button></div>
       <div className={hiddenState&&'banner-hidden'} >
         <img  src={Logo} alt='logo' height={90} width={200} />
-        <h1 style={{ fontSize: '20px' }}>Theme Ambience Group</h1>
-        <h6>TS RERA No:P02400004462</h6>
+        <h1 style={{ fontSize: '16px' }}>Theme Ambience Group</h1>
+        <h6 style={{fontSize:'14px'}}>TS RERA No:P02400004462</h6>
         <hr className='hh' />
-        <h2 style={{ fontSize: '25px' }}>Attarpur, Hyderbad</h2>
-        <h3 style={{ fontSize: '20px' }}>Total Units | 404 Units</h3>
-        <h4 style={{ fontSize: '16px' }}>2BHK Apartments | 208 Units</h4>
-        <h5 style={{ fontSize: '15px' }}>1470 Sq.ft - 1368 Sq.ft</h5>
+        <h2 style={{ fontSize: '20px' }}>Attarpur, Hyderbad</h2>
+        <h3 style={{ fontSize: '17px' }}>Total Units | 404 Units</h3>
+        <h4 style={{ fontSize: '15px' }}>2BHK Apartments | 208 Units</h4>
+        <h5 style={{ fontSize: '14px' }}>1470 Sq.ft - 1368 Sq.ft</h5>
         <hr className='hh' />
-        <h4 style={{ fontSize: '16px' }}>3BHK Apartments | 196 Units</h4>
-        <h5 style={{ fontSize: '15px' }}>1845 Sq.ft - 2655 Sq.ft</h5>
+        <h4 style={{ fontSize: '15px' }}>3BHK Apartments | 196 Units</h4>
+        <h5 style={{ fontSize: '14px' }}>1845 Sq.ft - 2655 Sq.ft</h5>
       </div>
       
       </div>
@@ -64,7 +58,7 @@ const Project = () => {
           The venture is surrounded by Hospitals such as Zoi, Germanten Hospital, etc… which are just in the range of 1 to 3 Kms
           On the other hand schools like Glendale, Kangaroo Kids, Army School, etc.. are in the vicinity.
         </h5>
-        <img className='gd' src={ground} />
+        <img className='gd' src={ground} alt='stilt'/>
       </div>
       <h1 style={{width:'40%', margin:'70px auto'}}>3BHK 360<span>&#176;</span> Virtual Tour</h1>
       <iframe src="https://app.lapentor.com/sphere/3bhk-imperial" frameBorder="0" width="60%" height="450" scrolling="no" allow="vr,gyroscope,accelerometer" allowFullScreen={true}  mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
@@ -110,11 +104,12 @@ const Project = () => {
       </div>
 
 
+{/* ##################### GALLERY ################################################## */}
 
       <div className='gallery container'>
         <h1 style={{marginTop:'10rem'}}>Floor Plan</h1>
-
-        <div className='row'>
+      <CustomModal/>
+        {/* <div className='row'>
 
           <div className="col-sm-3">
             <div className="card s" style={{width:'20rem'}}>
@@ -158,7 +153,7 @@ const Project = () => {
           </div>
 
          
-        </div>
+        </div> */}
       </div>
     </>
   )
