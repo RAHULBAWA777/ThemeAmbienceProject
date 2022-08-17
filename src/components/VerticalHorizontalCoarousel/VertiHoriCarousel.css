@@ -1,0 +1,206 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  } */
+.mainDiv {
+  overflow: hidden;
+  /* background-color:rebeccapurple; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* margin-top: 0px; */
+}
+
+.leftWrapper {
+  background-color: transparent;
+  width: 40%;
+  height: 100%;
+}
+
+.carouselDiv1 {
+  height: 100vh;
+  width: 60%;
+  background-color: maroon;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.slide{
+  width: 100%;
+}
+.slide>img {
+  width: 100%;
+  object-fit: fill;
+  height: 100vh;
+  padding-top: 5rem;
+}
+
+.carouselDiv2 {
+  background-color: maroon;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide2 {
+  opacity: 0;
+  transition: 1s;
+  transform: translateX(100%);
+  width: 99%;
+  background-color: transparent;
+  font-size: 3rem;
+  font-weight: 900;
+  font-style: italic;
+  font-family:    Arial, Helvetica, sans-serif;
+  color: var(--bg-color-theme);
+}
+
+.slide2.active2 {
+  transform: translateX(0%);
+  opacity: 1;
+  transition: 1s ease-in-out;
+  width: 99%
+}
+
+.carouselDiv3 {
+  background-color: transparent;
+  height: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.slide {
+  opacity: 0;
+  transition: 1s;
+  transform: translateY(100%);
+  width: 99%
+}
+
+.slide.active {
+  transform: translateY(0%);
+  opacity: 1;
+  transition: 1s ease-in-out;
+  width: 99%
+}
+
+/* CSS */
+.arrow-left,
+.arrow-right {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 100%;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 80px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform, opacity;
+  z-index: 0;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+  background: #F6F9FE;
+  color: #174ea6;
+}
+
+.arrow-left:active,
+.arrow-right:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.arrow-left:focus,
+.arrow-right:focus {
+  outline: none;
+  /* border: 2px solid #4285f4; */
+}
+
+.arrow-left:not(:disabled),
+.arrow-right:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.arrow-left:not(:disabled):hover,
+.arrow-right:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+.arrow-left:not(:disabled):focus,
+.arrow-right:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.arrow-left:not(:disabled):active,
+.arrow-right:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+.arrow-left:disabled,
+.arrow-right:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+@media screen and (max-width:600px) {
+  .mainDiv {
+    flex-direction: column;
+  }
+
+  .carouselDiv1,
+  .carouselDiv2,
+  .carouselDiv3 {
+    width: 100%;
+  }
+
+  .carouselDiv2 {
+    width: 100%;
+    margin-top: 3rem;
+  }
+
+  .carouselDiv3 {
+    width: 100%;
+  }
+
+  .arrow-left,
+  .arrow-right {
+    height: 60px;
+    width: 60px;
+  }
+
+  .slide2,
+  .slide2.active2 {
+    font-size: medium;
+  }
+
+  .leftWrapper {
+    width: 100%;
+  }
+}

@@ -26,7 +26,7 @@ h1 {
   font-weight: 560;
   letter-spacing: 0.83px;
   font-size: 2rem;
-  border-left: solid rgb(128, 107, 0) 4px;
+  /* border-left: solid rgb(128, 107, 0) 4px; */
   padding-left: 1rem;
   /* width: 100%; */
   color: maroon;
