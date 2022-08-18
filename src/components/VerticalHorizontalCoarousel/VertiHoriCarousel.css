@@ -201,6 +201,8 @@
 @media screen and (max-width:600px) {
   .mainDiv {
     flex-direction: column;
+    /* background-color: #3c4043; */
+    height: fit-content;
   }
 
   .carouselDiv1,
@@ -208,14 +210,30 @@
   .carouselDiv3 {
     width: 100%;
   }
+.carouselDiv1{
+  height:20rem;
+  /* background-color: #174ea6; */
 
+}
+.slide>img{
+padding: 0;
+object-fit: fill;
+height: 20rem;
+margin: 0;
+padding: 0;
+}
   .carouselDiv2 {
     width: 100%;
-    margin-top: 3rem;
+    height: 15rem;
+    /* margin-top: 1rem; */
+/* background-color: burlywood; */
   }
 
   .carouselDiv3 {
     width: 100%;
+   /* background-color: aqua; */
+height: fit-content;
+padding: 1rem 0;
   }
 
   .arrow-left,
@@ -226,10 +244,19 @@
 
   .slide2,
   .slide2.active2 {
-    font-size: medium;
+    font-size: larger;
+    /* background-color: #3c4043; */
+    /* margin-top: 13rem; */
   }
 
   .leftWrapper {
     width: 100%;
+  }
+  .bn2{
+    margin: 20% 23%;
+}
+  .bn2, .bn2>img{
+    width: 6rem;
+    height: 4rem;
   }
 }
