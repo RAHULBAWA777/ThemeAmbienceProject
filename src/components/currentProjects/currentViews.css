@@ -42,7 +42,7 @@ body {
     position: absolute;
     border-radius: 10px;
     right: 82%;
-    top: 90%;
+    top: 75%;
     box-shadow: rgba(240, 211, 46, 0.4) 5px 5px, rgba(240, 179, 46, 0.3) 10px 10px, rgba(240, 191, 46, 0.2) 15px 15px, rgba(240, 185, 46, 0.1) 20px 20px, rgba(240, 179, 46, 0.05) 25px 25px;
     /* height: 6rem; */
 }
@@ -65,7 +65,7 @@ body {
 }
 .drop{
     position: absolute;
-    top: 18.6rem;
+    top: 16rem;
     right: 10%;
 }
 .hh{
