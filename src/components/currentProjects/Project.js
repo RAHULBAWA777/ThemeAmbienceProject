@@ -14,7 +14,7 @@ const Project = () => {
   return (
     <>
       <div className='proj'>
-        <iframe style= {{ width: '90%' }} className='frame' src='https://theme-imperial-3-d-project.vercel.app/'
+        <iframe style= {{ width: '90%',height:"110vh" }} className='frame' src='https://theme-imperial-3-d-project.vercel.app/'
           title='3D Project'
           frameBorder='0' referrerPolicy='no-referrer-when-downgrade' />
       </div>

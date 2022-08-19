@@ -5,10 +5,10 @@ export const ImageData =[
         image:'./images2/Picture1.jpg'
     },
     {
-        image:'./images2/Highcompressed_1588995805.jpg'
+        image:'./images2/carouselPic2.jpg'
     },
     {
-        image:'./images2/Highcompressed_2057613182.jpg'
+        image:'./images2/carouselPic1.jpg'
     }
     // ,
     // {

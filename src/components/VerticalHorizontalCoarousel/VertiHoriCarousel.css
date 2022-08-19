@@ -45,6 +45,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 .bn2{
   /* background-color: rgb(218, 200, 177); */
@@ -109,7 +110,8 @@
   opacity: 0;
   transition: 1s;
   transform: translateY(100%);
-  width: 99%
+  width: 99%;
+  object-fit: cover;
 }
 
 .slide.active {
@@ -217,7 +219,7 @@
 }
 .slide>img{
 padding: 0;
-object-fit: fill;
+
 height: 20rem;
 margin: 0;
 padding: 0;

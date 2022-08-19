@@ -105,7 +105,7 @@ const CompletedProjects = () => {
 
           <div className="col-sm-4">
             <div className="card" style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
-              <img style={{height:'12rem', width: '22rem' }} src={GolfImage} className="card-img-top" alt="..." />
+              <img style={{height:'13rem', width: '22rem' }} src={GolfImage} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title mx-auto">Theme Golf View</h5>
                 <p className="card-text">Nanakramguda ORR junction, Gachibowli</p>
@@ -125,7 +125,7 @@ const CompletedProjects = () => {
 
           <div className="col-sm-4">
             <div className="card" style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
-              <img style={{height:'11rem', width: '22rem' }} src={temple} className="card-img-top" alt="..." />
+              <img style={{height:'13rem', width: '22rem' }} src={temple} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 style={{fontSize:'1.3rem'}} className="card-title mx-auto">Tirupathi Temple Town Phase-1</h5>
                 <p className="card-text">Renigunta -Tirupati Road</p>
@@ -135,7 +135,7 @@ const CompletedProjects = () => {
 
           <div className="col-sm-4">
             <div className="card" style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
-              <img style={{height:'12rem', width: '22rem' }} src={vista} className="card-img-top" alt="..." />
+              <img style={{height:'13rem', width: '22rem' }} src={vista} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 style={{fontSize:'1.3rem'}} className="card-title mx-auto">Theme Vista</h5>
                 <p className="card-text">Golconda Fort, Bapu Ghat</p>
