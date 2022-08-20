@@ -14,7 +14,7 @@ const Project = () => {
   return (
     <>
       <div className='proj'>
-        <iframe style= {{ width: '90%',height:"90vh" }} className='frame' src='https://theme-imperial-3-d-project.vercel.app/'
+        <iframe style= {{ width: '90%'}} className='frame' src='https://theme-imperial-3-d-project.vercel.app/'
           title='3D Project'
           frameBorder='0' referrerPolicy='no-referrer-when-downgrade' />
       </div>
@@ -40,9 +40,7 @@ const Project = () => {
       <div className='projectSpecs'>
         <h1>Theme Imperial</h1>
         <br />
-        <br />
-        <br />
-        <h2>Theme Imperial @ Attapur, Hyderabad</h2>
+        <h2> Attapur, Hyderabad</h2>
         
         <h5>
           <ul className='u'>
@@ -56,10 +54,11 @@ const Project = () => {
           The venture is surrounded by Hospitals such as Zoi, Germanten Hospital, etc… which are just in the range of 1 to 3 Kms
           On the other hand schools like Glendale, Kangaroo Kids, Army School, etc.. are in the vicinity.
         </h5>
+      
         <img className='gd' src={ground} alt='stilt'/>
       </div>
-      <h1 style={{width:'40%', margin:'70px auto'}}>3BHK 360<span>&#176;</span> Virtual Tour</h1>
-      <iframe src="https://app.lapentor.com/sphere/3bhk-imperial" frameBorder="0" width="60%" height="450" scrolling="no" allow="vr,gyroscope,accelerometer" allowFullScreen={true}  mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
+      <h1 className='tourr'>3BHK 360<span>&#176;</span> Virtual Tour</h1>
+      <iframe src="https://app.lapentor.com/sphere/3bhk-imperial" frameBorder="0" width="75%" height="550px" scrolling="no" allow="vr,gyroscope,accelerometer" allowFullScreen={true}  mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
       <br/>
       <br/>
       <br/>
@@ -70,31 +69,31 @@ const Project = () => {
         <div className='row'>
 
           <div className="col-sm-6">
-            <div className="card f" style={{width:'40rem'}}>
-              <img className="card-img-top" src={pi1} alt="Card image cap" />
+            <div className="card f" >
+              <img className="card-img-top vi" src={pi1} alt="Card image cap" />
             </div>
           </div>
 
          
           <div className="col-sm-6">
-            <div className="card f" style={{width:'42rem'}}>
-              <img className="card-img-top" src={pi2} alt="Card image cap" />
+            <div className="card f" >
+              <img className="card-img-top vi" src={pi2} alt="Card image cap"/>
             </div>
           </div>
     
 
           
           <div className="col-sm-6">
-            <div className="card f" style={{width:'40rem'}}>
-              <img className="card-img-top" src={pi3} alt="Card image cap" />
+            <div className="card f" >
+              <img className="card-img-top vi" src={pi3} alt="Card image cap"/>
             </div>
           </div>
          
 
           
           <div className="col-sm-6">
-            <div className="card f" style={{width:'42rem'}}>
-              <img className="card-img-top" src={pi4} alt="Card image cap" />
+            <div className="card f" >
+              <img className="card-img-top vi" src={pi4} alt="Card image cap"  />
             </div>
           </div>
          
@@ -105,7 +104,7 @@ const Project = () => {
 {/* ##################### GALLERY ################################################## */}
 
       <div className='gallery container'>
-        <h1 style={{marginTop:'10rem'}}>Floor Plan</h1>
+        <h1 style={{marginTop:'5rem'}}>Floor Plan</h1>
       <CustomModal/>
         {/* <div className='row'>
 

@@ -8,7 +8,7 @@ import canton from '../../images/canton.jpg'
 import anthem from '../../images/anthem.jpg'
 import ambiencefort from '../../images/ambiencefort.jpg'
 import temple from '../../images/temple-town-front1.jpg'
-import Emami from '../../images/fortview_main.jpg'
+// import Emami from '../../images/fortview_main.jpg'
 import GolfImage from '../../images/golfview_img_banner.jpg'
 import LakeImage from '../../images/main_img.jpg'
 import vista from '../../images/Picture4.jpg'
@@ -28,7 +28,7 @@ const CompletedProjects = () => {
               <img style={{height:'13rem', width: '22rem' }} src={Swapanlok} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title mx-auto">Swapanlok</h5>
-                <p className="card-text mx-auto">Secunderabad, Andhra Pradesh</p>
+                <p className="card-text mx-auto">Secunderabad, Medchal</p>
               </div>
             </div>
           </div>
@@ -93,15 +93,15 @@ const CompletedProjects = () => {
             </div>
           </div>
 
-          <div className="col-sm-4">
+          {/* <div className="col-sm-4">
             <div className="card" style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
               <img style={{height:'13rem', width: '22rem' }} src={Emami} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title mx-auto">Emami Swanlake</h5>
-                <p className="card-text">Hydersha Kote near Langar House</p>
+                <p className="card-text">Sangeet  Nagar, Kukatpally</p>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="col-sm-4">
             <div className="card" style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>

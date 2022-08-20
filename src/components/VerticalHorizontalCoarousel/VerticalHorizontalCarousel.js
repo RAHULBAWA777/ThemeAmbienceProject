@@ -29,9 +29,7 @@ const VerticalHorizontalCarousel = ({ slides, slides2 }) => {
             <div className='mainDiv'>
                 <div className='leftWrapper'>
                     <div className='carouselDiv2'>
-                        <div className='bn2'>
-        <img src={years} alt='logo' height={100} width={200} />
-      </div>
+
                         {InfoData.map((slide2, index2) => {
                             return (
                                 <div className={index2 === current2 ? 'slide2 active2' : 'slide2'} key={index2}>
@@ -42,7 +40,11 @@ const VerticalHorizontalCarousel = ({ slides, slides2 }) => {
                     </div>
 
                     <div className='carouselDiv3'>
+      
                         <button className="arrow-left" onClick={prevImage}><i className="fa-solid fa-arrow-left"></i></button>
+                        <div className='bn2'>
+                            <img className='yee' src={years} alt='logo' height={100} width={200} />
+                        </div>
                         <button className="arrow-right" onClick={nextImage}><i className="fa-solid fa-arrow-right"></i></button>
                     </div>
                 </div>

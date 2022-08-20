@@ -1,13 +1,14 @@
 import { useState } from 'react'
 import './CustomModal.css'
-import f1 from '../../../images/f1.jpg'
-import f2 from '../../../images/f2.jpg'
-import f3 from '../../../images/f3.jpg'
-import f4 from '../../../images/f4.jpg'
-import f5 from '../../../images/f5.jpg'
-import f6 from '../../../images/f6.jpg'
-import f7 from '../../../images/f7.jpg'
-import f8 from '../../../images/f8.jpg'
+import f1 from '../../../images/f1.jpeg'
+import f2 from '../../../images/f2.jpeg'
+import f3 from '../../../images/f3.jpeg'
+import f4 from '../../../images/f4.jpeg'
+import f5 from '../../../images/f5.jpeg'
+import f6 from '../../../images/f6.jpeg'
+import f7 from '../../../images/f7.jpeg'
+import f8 from '../../../images/f8.jpeg'
+import f9 from '../../../images/f9.jpeg'
 
 const CustomModal = () => {
     const imgData = [
@@ -34,6 +35,9 @@ const CustomModal = () => {
         },
         {
             imgSrc: f8
+        },
+        {
+            imgSrc: f9
         }
     ]
     const [mod,setMod]=useState(false);

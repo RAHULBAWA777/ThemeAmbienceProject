@@ -16,6 +16,10 @@
 .sc >img{
     width: 20rem;
 }
+.walkHeader{
+    margin: 70px auto;
+    width: 40%;
+}
 @media screen and (max-width:600px){
     .loc{
         flex-direction: column;
@@ -27,9 +31,9 @@
         width: 90%;
     }
     .walkHeader{
-        width: 100%;
-        font-size: 1.3rem;
+        /* background-color: aliceblue; */
         margin-top: 0!important;
         padding: 0;
+        width: 80%;
     }
 }
