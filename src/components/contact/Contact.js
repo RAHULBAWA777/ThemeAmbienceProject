@@ -32,7 +32,7 @@ const Contact = () => {
             <img className='pic' src={mail} alt='globe'/>
             <h3>Write Us</h3>
             <h5>Email : <a href="mailto: theme@themeambience.com">theme@themeambience.com</a> (For sales and marketing queries)</h5>
-        <h5>Email : <a href="mailto: themeambience@gmail.com">theme@themeambience.com</a> (For sales and marketing queries)</h5> 
+        <h5>Email : <a href="mailto: themeambience@gmail.com">themeambience@gmail.com</a>  (For contractors and other queries)</h5> 
           </div>
          </div>
     </div>
