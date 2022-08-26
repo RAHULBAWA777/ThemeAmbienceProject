@@ -19,7 +19,7 @@ const Project = () => {
           frameBorder='0' referrerPolicy='no-referrer-when-downgrade' />
       </div>
       
-      <div className='banner'>
+  <div className='banner'>
    <div className={hiddenState&&'drop'}>  <button id='btn'  onClick={()=>setHiddenState(!hiddenState)}>-</button></div>
       <div className={hiddenState&&'banner-hidden'} >
         <img  src={Logo} alt='logo' height={90} width={200} />
@@ -27,14 +27,14 @@ const Project = () => {
         <h6 style={{fontSize:'14px'}}>TS RERA No:P02400004462</h6>
         <hr className='hh' />
         <h2 style={{ fontSize: '20px' }}>Attarpur, Hyderbad</h2>
-        <h3 style={{ fontSize: '17px' }}>Total Units | 404 Units</h3>
-        <h4 style={{ fontSize: '15px' }}>2BHK Apartments | 208 Units</h4>
-        <h5 style={{ fontSize: '14px' }}>1470 Sq.ft - 1368 Sq.ft</h5>
+        <h3 style={{ fontSize: '17px' }}>Total Units | 208 Units</h3>
+        <h4 style={{ fontSize: '15px' }}>2BHK Apartments | 76 Units</h4>
+        <h5 style={{ fontSize: '14px' }}>1470 Sq.ft</h5>
         <hr className='hh' />
-        <h4 style={{ fontSize: '15px' }}>3BHK Apartments | 196 Units</h4>
+        <h4 style={{ fontSize: '15px' }}>3BHK Apartments | 132 Units</h4>
         <h5 style={{ fontSize: '14px' }}>1845 Sq.ft - 2655 Sq.ft</h5>
       </div>
-      
+
       </div>
  
       <div className='projectSpecs'>
@@ -50,7 +50,6 @@ const Project = () => {
 
             <li>Total 12 Floors with Built up area up to 434000 sft</li>
           </ul>
-
           The venture is surrounded by Hospitals such as Zoi, Germanten Hospital, etc… which are just in the range of 1 to 3 Kms
           On the other hand schools like Glendale, Kangaroo Kids, Army School, etc.. are in the vicinity.
         </h5>
