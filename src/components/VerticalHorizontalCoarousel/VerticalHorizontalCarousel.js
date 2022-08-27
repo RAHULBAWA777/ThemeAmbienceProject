@@ -2,9 +2,9 @@ import { useState } from 'react'
 import "./VertiHoriCarousel.css";
 import { ImageData } from "./CarouselData/ImageData";
 import { InfoData } from "./CarouselData/InfoData";
-import years from '../../images/40 years.png'
+import { Link } from "react-router-dom";
+// import years from '../../images/40 years.png'
 
-// import FortImage from '../../images/Picture.jpg'
 
 
 const VerticalHorizontalCarousel = ({ slides, slides2 }) => {
@@ -43,7 +43,8 @@ const VerticalHorizontalCarousel = ({ slides, slides2 }) => {
       
                         <button className="arrow-left" onClick={prevImage}><i className="fa-solid fa-arrow-left"></i></button>
                         <div className='bn2'>
-                            <img className='yee' src={years} alt='logo' height={100} width={200} />
+                            {/* <img className='yee' src={years} alt='logo' height={100} width={200} /> */}
+                         <Link to="/project">   <button className='btnn'>Theme Imperial <span className='m'>🠒</span> </button></Link>
                         </div>
                         <button className="arrow-right" onClick={nextImage}><i className="fa-solid fa-arrow-right"></i></button>
                     </div>
