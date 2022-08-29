@@ -19,11 +19,12 @@
   .card{
     border: none!important;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
   }
   .card-body{
-    background-color: rgb(243, 194, 134);
-
-  }
+    background-color: var(--skin);
+  
+    }
 
   .card:hover{
     transform: translateY(-13px);

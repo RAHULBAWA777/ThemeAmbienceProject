@@ -53,14 +53,14 @@
   z-index: 2;
   position: absolute;
   border-radius: 10px;
-  left: 11%;
-  top: 70%;
+  left: 16%;
+  top: 80%;
 }
 .btnn{
   background-color: maroon;
   border: none;
   padding: 10px 20px;
-  font-size: 30px;
+  font-size: 20px;
   border-radius: 4px;
   color: #F3C286;
 }
@@ -216,6 +216,19 @@ background-color: aquamarine;
   box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
 }
 
+.banner {
+  background-color: rgb(243, 194, 134);
+  width: 17%;
+  position: absolute;
+  border-radius: 10px;
+  right: 12%;
+  top: 75%;
+  box-shadow: rgba(240, 211, 46, 0.4) 5px 5px, rgba(240, 179, 46, 0.3) 10px 10px, rgba(240, 191, 46, 0.2) 15px 15px, rgba(240, 185, 46, 0.1) 20px 20px, rgba(240, 179, 46, 0.05) 25px 25px;
+}
+
+
+/* ########################################################################################## */
+
 @media screen and (max-width:600px) {
   .mainDiv {
     flex-direction: column;
@@ -284,5 +297,18 @@ padding: 1rem 0;
 .btnn{
  font-size: 20px;
 width: fit-content;
+}
+.bannerHome>img{
+  height: 90px;
+  width: 200px;
+}
+.bannerHome>h1{
+ font-size: 16px;
+}
+.bannerHome>h6{
+ font-size: 16px;
+}
+.bannerHome{
+ font-size: 16px;
 }
 }

@@ -1,7 +1,7 @@
 
 
 .footer-container{
-    background-color: var(--bg-color-theme);
+    background-color: var(--skin);
     display:flex;
     flex-direction: column;
     align-items:flex-start;
@@ -9,7 +9,8 @@
    color:var(--primary-font-color);
   width: 100vw;
   /* background-color: antiquewhite; */
-  padding: 0 2rem;
+  padding: 3rem 2rem;
+
 }
 
 .footer-image{

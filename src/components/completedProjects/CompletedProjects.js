@@ -25,7 +25,7 @@ const CompletedProjects = () => {
         <div className='row'>
           <div className="col-sm-4">
             <div className="card " style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
-              <img style={{height:'13rem', width: '22rem' }} src={Swapanlok} className="card-img-top" alt="..." />
+              <img style={{height:'15rem', width: '22rem' }} src={Swapanlok} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title mx-auto">Swapanlok</h5>
                 <p className="card-text mx-auto">Secunderabad, Medchal</p>
@@ -35,7 +35,7 @@ const CompletedProjects = () => {
 
           <div className="col-sm-4">
             <div className="card " style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
-              <img style={{height:'13rem', width: '22rem' }} src={Indralok} className="card-img-top" alt="..." />
+              <img style={{height:'15rem', width: '22rem' }} src={Indralok} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title mx-auto">Indralok Complex</h5>
                 <p className="card-text mx-auto">Road No.1, Banjara Hills</p>
@@ -45,7 +45,7 @@ const CompletedProjects = () => {
 
           <div className="col-sm-4">
             <div className="card " style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
-              <img style={{height:'13rem', width: '22rem' }} src={ambience_avenue} className="card-img-top" alt="..." />
+              <img style={{height:'15rem', width: '22rem' }} src={ambience_avenue} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title mx-auto">Ambience Avenue</h5>
                 <p className="card-text mx-auto">Srinagar Colony, Hyderabad</p>
@@ -55,7 +55,7 @@ const CompletedProjects = () => {
 
           < div className="col-sm-4">
             <div className="card " style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
-              <img style={{height:'13rem', width: '22rem' }} src={whisper_valley} className="card-img-top" alt="..." />
+              <img style={{height:'15rem', width: '22rem' }} src={whisper_valley} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title mx-auto">Whisper Valley</h5>
                 <p className="card-text mx-auto">Jubilee Hills, Hyderabad</p>
@@ -65,7 +65,7 @@ const CompletedProjects = () => {
 
           <div className="col-sm-4">
             <div className="card " style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
-              <img style={{height:'13rem', width: '22rem' }} src={canton} className="card-img-top" alt="..." />
+              <img style={{height:'15rem', width: '22rem' }} src={canton} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title mx-auto">Ambience Canton</h5>
                 <p className="card-text mx-auto">Secunderabad, Medchal</p>
@@ -75,7 +75,7 @@ const CompletedProjects = () => {
 
           <div className="col-sm-4">
             <div className="card " style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
-              <img style={{height:'13rem', width: '22rem' }} src={anthem} className="card-img-top" alt="..." />
+              <img style={{height:'15rem', width: '22rem' }} src={anthem} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title mx-auto">Ambience Anthem</h5>
                 <p className="card-text mx-auto"> Secunderabad, Medchal</p>
@@ -85,7 +85,7 @@ const CompletedProjects = () => {
 
           <div className="col-sm-4">
             <div className="card" style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
-              <img style={{height:'13rem', width: '22rem' }} src={ambiencefort} className="card-img-top" alt="..." />
+              <img style={{height:'15rem', width: '22rem' }} src={ambiencefort} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title mx-auto">Ambience Fort</h5>
                 <p className="card-text mx-auto">Attapur, Rajendra Nagar</p>
@@ -93,19 +93,9 @@ const CompletedProjects = () => {
             </div>
           </div>
 
-          {/* <div className="col-sm-4">
-            <div className="card" style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
-              <img style={{height:'13rem', width: '22rem' }} src={Emami} className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title mx-auto">Emami Swanlake</h5>
-                <p className="card-text">Sangeet  Nagar, Kukatpally</p>
-              </div>
-            </div>
-          </div> */}
-
           <div className="col-sm-4">
             <div className="card" style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
-              <img style={{height:'13rem', width: '22rem' }} src={GolfImage} className="card-img-top" alt="..." />
+              <img style={{height:'15rem', width: '22rem' }} src={GolfImage} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title mx-auto">Theme Golf View</h5>
                 <p className="card-text">Nanakramguda ORR junction, Gachibowli</p>
@@ -115,7 +105,7 @@ const CompletedProjects = () => {
 
           <div className="col-sm-4">
             <div className="card" style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
-              <img style={{height:'13rem', width: '22rem' }} src={LakeImage} className="card-img-top" alt="..." />
+              <img style={{height:'15rem', width: '22rem' }} src={LakeImage} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title mx-auto">Lake View</h5>
                 <p className="card-text">Shaikpet, Towli Chowki</p>
@@ -125,9 +115,9 @@ const CompletedProjects = () => {
 
           <div className="col-sm-4">
             <div className="card" style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
-              <img style={{height:'13rem', width: '22rem' }} src={temple} className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 style={{fontSize:'1.3rem'}} className="card-title mx-auto">Tirupathi Temple Town Phase-1</h5>
+              <img style={{height:'15rem', width: '22rem' }} src={temple} className="card-img-top" alt="..." />
+              <div  className="card-body">
+                <h5 style={{fontSize:'1.2rem'}} className="card-title mx-auto">Tirupathi Temple Town Phase-1</h5>
                 <p className="card-text">Renigunta -Tirupati Road</p>
               </div>
             </div>
@@ -135,9 +125,9 @@ const CompletedProjects = () => {
 
           <div className="col-sm-4">
             <div className="card" style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
-              <img style={{height:'13rem', width: '22rem' }} src={vista} className="card-img-top" alt="..." />
+              <img style={{height:'15rem', width: '22rem' }} src={vista} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 style={{fontSize:'1.3rem'}} className="card-title mx-auto">Theme Vista</h5>
+                <h5  className="card-title mx-auto">Theme Vista</h5>
                 <p className="card-text">Golconda Fort, Bapu Ghat</p>
               </div>
             </div>
@@ -145,19 +135,20 @@ const CompletedProjects = () => {
 
           <div className="col-sm-4">
             <div className="card" style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
-              <img style={{height:'13rem', width: '22rem' }} src={swan} className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 style={{fontSize:'1.3rem'}} className="card-title mx-auto">Swan Lake</h5>
+              <img style={{height:'15rem', width: '22rem' }} src={swan} className="card-img-top" alt="..." />
+              <div  className="card-body">
+                <h5  className="card-title mx-auto">Swan Lake</h5>
                 <p className="card-text">Kukatpally</p>
               </div>
             </div>
+            {/* style={{marginTop:'10px'}} */}
           </div>
 
           <div className="col-sm-4">
             <div className="card" style={{height:'22rem', width: '22rem',marginTop:'3rem' }}>
-              <img style={{height:'13rem', width: '22rem' }} src={FortImage} className="card-img-top" alt="..." />
+              <img style={{height:'15rem', width: '22rem' }} src={FortImage} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 style={{fontSize:'1.3rem'}} className="card-title mx-auto">Fort View</h5>
+                <h5  className="card-title mx-auto">Fort View</h5>
                 <p className="card-text">Hydershakote on the Chilkur Balaji Temple, Gandipet Road</p>
               </div>
             </div>
@@ -166,6 +157,8 @@ const CompletedProjects = () => {
 
         </div>
       </div>
+      <br/>
+      <br/>
    
     </>
   )

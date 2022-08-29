@@ -14,10 +14,9 @@ export default function FooterComponent() {
           <div className="footer-subheading"> Contact Us</div>
           <div className="footer-subheading-content">
             <div className="footer-contact"> Theme Ambience Constructions Pvt Ltd </div>{" "}
-            theme@themeambience.com 
+            {/* theme@themeambience.com  */}
             www.themeambience.com
-            <br/>
-            Tel:040-23377851/53
+          
             <br/>
             Sales22@propbuynsell.com
             <br/>
@@ -34,6 +33,8 @@ export default function FooterComponent() {
             Banjara Hills,
             <br/>
              Hyderabad - 500034
+             <br/>
+            Tel:040-23377851/53
           </div>
         </div>
         <div className="footer-copyright">

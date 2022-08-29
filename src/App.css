@@ -5,7 +5,7 @@ html{
 .App {
   text-align: center;
   background-color:var(--bg-color-theme);
-  padding-bottom:2rem;
+  /* padding-bottom:2rem; */
 }
 
 .footer-text{
@@ -24,7 +24,7 @@ html{
   --primary-font-color:black ;
   --primary-01:maroon;
   --secondary-01: rgb(255, 255, 255);
-  
+  --skin:rgb(248, 210, 165);
   --footer-bg: var(--secondary-01);
   --dark-gray:#838383;
   --white-color:white;
