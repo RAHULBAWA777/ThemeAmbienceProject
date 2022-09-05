@@ -34,39 +34,7 @@ const Navbar = () => {
                                 <li><Link className="dropdown-item" to="/TirupatiTempleTown">Tirupati Temple Town Phase-2</Link></li>
                             </ul>
                         </li>
-                        {/* <li className="nav-item dropdown ">
-                            <a className="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Completed Projects
-                            </a>
-                            <ul className="dropdown-menu">
-                                <li><Link className="dropdown-item" to="/comProjects">Ambience Fort</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/comProjects">Swapnalok</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/comProjects">Indralok</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/comProjects">Avenue</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/comProjects">Whisper Valley</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/comProjects">Walden Club</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/comProjects">Ambience Canton</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/comProjects">Ambience Anthem</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/comProjects">Tirupati Temple Town Phase-1</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/comProjects">@ Kukapally-Emami</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/comProjects">Golf View</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/comProjects">Lake View</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><Link className="dropdown-item" to="/comProjects">Emami Swanlake</Link></li>
-                                <li><hr className="dropdown-divider" /></li>
-                            </ul>
-                        </li> */}
+                       
                        
                         <li className="nav-item dropdown ">
                             <a className="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -93,7 +61,7 @@ const Navbar = () => {
                         <li className="nav-item">
                             <Link className="nav-link active " aria-current="page" to="/contact">Contact Us</Link>
                         </li>
-                        <li className="nav-item ">
+                        {/* <li className="nav-item ">
                             <a className='nav-link active'>
                             <i style={{fontWeight:'bold'}} className="fa-brands fa-instagram"></i>
                             </a>
@@ -107,7 +75,7 @@ const Navbar = () => {
                             <a className='nav-link active'>
                             <i className="fa-brands fa-facebook-f"></i>
                             </a>
-                            </li>
+                            </li> */}
                     </ul>
 
                 </div>

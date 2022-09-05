@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import TextCard from "../text-card-component/TextCard";
+// import TextCard from "../text-card-component/TextCard";
 // import CarouselComponent from "../carousel-component/carousel";
 import TextCardLeft from "../text-card-left-component/TextCardLeft";
 import PopUpComponent from "../popUp/PopUp";
@@ -16,7 +16,6 @@ import "./frontPage.css"
 const FrontPageContent = () => {
 
   const[popUpState,setPopUpState]=useState(true)
-
 
   return (
     <>

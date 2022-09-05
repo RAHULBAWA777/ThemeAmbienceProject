@@ -26,6 +26,21 @@ body {
 }
 
 /* ############################################## */
+.accor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 4rem; */
+    margin-top: 5rem;
+}
+.spp{
+width: 100%;
+}
+.accordion-button{
+    background-color: var(--skin)!important;
+    color: maroon!important;
+    font-weight: 700;
+}
 .proj {
     margin-top: 3rem;
 }
@@ -223,5 +238,9 @@ h5 {
 .tourr{
     width: 90%;
     margin: 20px auto;
+}
+.accor{
+   margin-top: 0rem;
+    margin-bottom: 2rem;
 }
 }

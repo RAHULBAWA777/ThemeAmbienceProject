@@ -6,21 +6,24 @@ import pi1 from '../../images/Picture6.jpg'
 import pi2 from '../../images/Picture7.jpg'
 import pi3 from '../../images/Picture8.jpg'
 import pi4 from '../../images/Picture9.jpg'
+import spec from '../../images/specs.jpg'
 
 import CustomModal from './customModal/CustomModal'
 
 const Project = () => {
   const[hiddenState,setHiddenState]=useState(false)
+
   return (
     <>
-      <div className='proj'>
+
+      <div  onClick={()=>setHiddenState(!hiddenState)} className='proj'>
         <iframe style= {{ width: '90%'}} className='frame' src='https://theme-imperial-3-d-project.vercel.app/'
           title='3D Project'
           frameBorder='0' referrerPolicy='no-referrer-when-downgrade' />
       </div>
       
   <div className='banner'>
-   <div className={hiddenState&&'drop'}>  <button id='btn'  onClick={()=>setHiddenState(!hiddenState)}>-</button></div>
+   <div className={hiddenState&&'drop'}>  <button id='btn' onClick={()=>setHiddenState(!hiddenState)}>-</button></div>
       <div className={hiddenState&&'banner-hidden'} >
         <img  src={Logo} alt='logo' height={90} width={200} />
         <h1 style={{ fontSize: '16px' }}>Theme Ambience Group</h1>
@@ -28,14 +31,31 @@ const Project = () => {
         <hr className='hh' />
         <h2 style={{ fontSize: '20px' }}>Attarpur, Hyderbad</h2>
         <h3 style={{ fontSize: '17px' }}>Total Units | 208 Units</h3>
-        <h4 style={{ fontSize: '15px' }}>2BHK Apartments | 76 Units</h4>
+        <h4 style={{ fontSize: '15px' }}>2BHK Apartments | 12 Units</h4>
         <h5 style={{ fontSize: '14px' }}>1470 Sq.ft</h5>
         <hr className='hh' />
-        <h4 style={{ fontSize: '15px' }}>3BHK Apartments | 132 Units</h4>
+        <h4 style={{ fontSize: '15px' }}>3 and 4 BHK Apartments | 196 Units</h4>
         <h5 style={{ fontSize: '14px' }}>1845 Sq.ft - 2655 Sq.ft</h5>
       </div>
-
       </div>
+
+      
+<div className='accor'>
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      Specifications
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       <img className='spp' src={spec} alt='specs'/>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
  
       <div className='projectSpecs'>
         <h1>Theme Imperial</h1>
