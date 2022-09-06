@@ -16,7 +16,7 @@ const Project = () => {
   return (
     <>
 
-      <div  onClick={()=>setHiddenState(!hiddenState)} className='proj'>
+      <div  className='proj'>
         <iframe style= {{ width: '90%'}} className='frame' src='https://theme-imperial-3-d-project.vercel.app/'
           title='3D Project'
           frameBorder='0' referrerPolicy='no-referrer-when-downgrade' />

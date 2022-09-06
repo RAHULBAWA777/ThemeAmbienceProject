@@ -31,7 +31,7 @@ body {
     justify-content: center;
     align-items: center;
     /* padding: 4rem; */
-    margin-top: 5rem;
+    margin-top: 9rem;
 }
 .spp{
 width: 100%;
@@ -177,11 +177,15 @@ h5 {
     .frame {
         width: 10%;
         height: 40vh;
-        margin: 5rem 0;
+        margin: 2rem 0;
     }
 
     .banner {
-        display: none;
+        /* display: none; */
+        position: static;
+        width: 90%;
+        margin: 0rem auto;
+        margin-bottom: 2rem;
     }
 
     .temple {
@@ -242,5 +246,8 @@ h5 {
 .accor{
    margin-top: 0rem;
     margin-bottom: 2rem;
+}
+#btn{
+    display: none;
 }
 }
