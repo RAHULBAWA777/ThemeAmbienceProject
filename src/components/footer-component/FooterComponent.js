@@ -44,7 +44,12 @@ export default function FooterComponent() {
             not a legal offering. The specification, plans, images and other
             details herein are only indicative and the developer/owner reserves
             the right to change any of these in the interest of the development
-            as deemed fit.{" "}
+            as deemed fit.
+            <br/>
+            <br/>
+            <br/>
+            Powered by @ <strong>BB REALTY</strong>
+            {" "}
           </div>{" "}
         </div>{" "}
       </div>{" "}
