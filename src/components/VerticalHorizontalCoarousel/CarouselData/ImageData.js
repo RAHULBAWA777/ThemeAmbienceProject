@@ -2,13 +2,13 @@
 
 export const ImageData =[
     {
-        image:'./images2/Picture8.jpg'
+        image:'./images2/carouselPic1.jpg'
     },
     {
         image:'./images2/carouselPic2.jpg'
     },
     {
-        image:'./images2/carouselPic1.jpg'
+        image:'./images2/Picture8.jpg'
     }
     // ,
     // {

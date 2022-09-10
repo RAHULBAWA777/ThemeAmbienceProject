@@ -9,6 +9,7 @@ import pi4 from '../../images/Picture9.jpg'
 import spec from '../../images/specs.jpg'
 
 import CustomModal from './customModal/CustomModal'
+import Accordian from './Acoordian/Accordian'
 
 const Project = () => {
   const[hiddenState,setHiddenState]=useState(false)
@@ -29,7 +30,7 @@ const Project = () => {
         <h1 style={{ fontSize: '16px' }}>Theme Ambience Group</h1>
         <h6 style={{fontSize:'14px'}}>TS RERA No:P02400004462</h6>
         <hr className='hh' />
-        <h2 style={{ fontSize: '20px' }}>Attarpur, Hyderbad</h2>
+        <h2 style={{ fontSize: '20px' }}>Attapur, Hyderbad</h2>
         <h3 style={{ fontSize: '17px' }}>Total Units | 208 Units</h3>
         <h4 style={{ fontSize: '15px' }}>2BHK Apartments | 12 Units</h4>
         <h5 style={{ fontSize: '14px' }}>1470 Sq.ft</h5>
@@ -39,24 +40,12 @@ const Project = () => {
       </div>
       </div>
 
+{/* ################# specifications ############################### */}
       
-<div className='accor'>
-<div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-      Specifications
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-       <img className='spp' src={spec} alt='specs'/>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
- 
+<Accordian/>
+
+ {/* ############################################################ */}
+
       <div className='projectSpecs'>
         <h1>Theme Imperial</h1>
         <br />

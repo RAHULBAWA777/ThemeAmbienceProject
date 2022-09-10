@@ -45,7 +45,7 @@ const VerticalHorizontalCarousel = ({ slides, slides2 }) => {
                             <h1 style={{ fontSize: '26px' }}>Theme Ambience Group</h1>
                             <h6 style={{ fontSize: '24px' }}>TS RERA No:P02400004462</h6>
                             <hr className='hh' />
-                            <h2 style={{ fontSize: '30px' }}>Attarpur, Hyderbad</h2>
+                            <h2 style={{ fontSize: '30px' }}>Attapur, Hyderbad</h2>
                         </div>
 
                     </div>

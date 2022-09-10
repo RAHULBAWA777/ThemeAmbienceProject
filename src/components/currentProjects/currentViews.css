@@ -27,19 +27,24 @@ body {
 
 /* ############################################## */
 .accor{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* padding: 4rem; */
-    margin-top: 9rem;
+    /* background-color: aquamarine; */
+    margin: 9rem 20%;
+}
+.accBtn{
+    text-align: center!important;
 }
 .spp{
 width: 100%;
 }
+
 .accordion-button{
     background-color: var(--skin)!important;
     color: maroon!important;
     font-weight: 700;
+    text-transform: uppercase;
+}
+.accordion-body{
+    text-align: left;
 }
 .proj {
     margin-top: 3rem;
@@ -246,6 +251,9 @@ h5 {
 .accor{
    margin-top: 0rem;
     margin-bottom: 2rem;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
 }
 #btn{
     display: none;
